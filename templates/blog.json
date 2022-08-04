@@ -1,0 +1,49 @@
+{
+  "sections": {
+    "1659587909c33c8048": {
+      "type": "collection-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/collection_banner.jpg",
+        "heading": "Wellness hub",
+        "content": "The latest updates and articles from JUVIA. Read on for wellness tips ,recipes advice on stress and general wellbeing and more."
+      }
+    },
+    "main": {
+      "type": "main-blog",
+      "settings": {
+        "show_rss": false,
+        "show_tags": true,
+        "show_featured_article": true,
+        "show_category": false
+      }
+    },
+    "shop-now": {
+      "type": "shop-now",
+      "blocks": {
+        "quote": {
+          "type": "quote",
+          "settings": {
+            "content": "<p>You can use this element to add a quote, content...<\/p>",
+            "author": ""
+          }
+        }
+      },
+      "block_order": [
+        "quote"
+      ],
+      "settings": {
+        "title": "Shop now",
+        "collection": "",
+        "grid_items_count": 6,
+        "show_product_info": true,
+        "show_vendor": false,
+        "show_color_swatch": false
+      }
+    }
+  },
+  "order": [
+    "1659587909c33c8048",
+    "main",
+    "shop-now"
+  ]
+}

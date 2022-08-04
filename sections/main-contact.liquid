@@ -1,0 +1,241 @@
+<!-- <section class="cust_page_title_main contact">
+  <div class="container">
+    <div class="row">
+        <div class="cust_page_title">
+         {% render 'breadcrumbs' %} 
+        </div>
+    </div>
+  </div>
+</section> -->
+
+<!-- <div class="container">
+  <header class="PageHeader">
+    <div class="SectionHeader SectionHeader--center">
+      <h1 class="SectionHeader__Heading Heading u-h1">{{ page.title }}</h1>
+    </div>
+  </header>
+</div> -->
+<div class="contact_us_main">
+  <div class="contact_us_main_inner">
+   <div class="container">
+     <div class="row">
+  <div class="contact_content">
+     <h2>{{section.settings.title}}</h2>
+     {{section.settings.content}}
+    
+     <div class="contact_content_address">
+       <p>{{section.settings.address}}</p>
+     </div>
+     <div class="contact_content_email">
+        <img src="https://cdn.shopify.com/s/files/1/0643/6467/5317/files/mail.svg"/> <a href="mailto:{{section.settings.email}}">{{section.settings.email}}</a>
+     </div>
+     <div class="contact_content_link">
+        <div class="contact_content_inner"><span>Looking for career?</span> <a href="{{section.settings.job_oping_link}}">{{section.settings.job_oping}} <img src="https://cdn.shopify.com/s/files/1/0643/6467/5317/files/contact_vactor.png"/></a></div>
+        <div class="contact_content_inner"><span>Have a question?</span> <a href="{{section.settings.faq_link}}">{{section.settings.faq}} <img src="https://cdn.shopify.com/s/files/1/0643/6467/5317/files/contact_vactor.png"/></a></div>
+     </div>
+  </div>
+   <div class="contact_form">
+  <div class="PageContent PageContent--narrow">
+    <div class="Rte">
+      {{- page.content -}}
+
+      {%- form 'contact', class: 'Form Form--spacingTight' -%}
+        {%- if form.posted_successfully? -%}
+          <p class="Alert Alert--success">{{ 'contact.form.successfully_sent' | t }}</p>
+        {%- endif -%}
+
+        {%- if form.errors -%}
+          <div class="Form__Alert Alert Alert--error">
+            <ul class="Alert__ErrorList">
+              {%- for field in form.errors -%}
+                {%- if field == 'form' -%}
+                  <li class="Alert__ErrorItem">{{ form.errors.messages[field] }}</li>
+                {%- else -%}
+                  <li class="Alert__ErrorItem"><strong>{{ form.errors.translated_fields[field] }}</strong> {{ form.errors.messages[field] }}</li>
+                {%- endif -%}
+              {%- endfor -%}
+            </ul>
+          </div>
+        {%- endif -%}
+<!--        <div class="Form__Group"> -->
+         <div class="Form__Item">
+            <input type="text" class="Form__Input" name="contact[name]" aria-label="{{ 'contact.form.name' | t }}" placeholder="{{ 'contact.form.name' | t }}" required {% if customer %}value="{{ customer.name }}"{% endif %}>
+            <label class="Form__FloatingLabel">{{ 'contact.form.name' | t }}</label>
+          </div>
+       
+          <div class="Form__Item">
+            <input type="email" class="Form__Input" name="contact[email]" aria-label="{{ 'contact.form.email' | t }}" placeholder="{{ 'contact.form.email' | t }}" required {% if customer %}value="{{ customer.email }}"{% endif %}>
+            <label class="Form__FloatingLabel">{{ 'contact.form.email' | t }}</label>
+          </div>
+<!--        </div> -->
+
+        {%- for block in section.blocks -%}
+          {%- assign field_title = block.settings.title -%}
+
+          {%- if field_title == blank -%}
+            {%- capture field_title -%}Custom field {% increment custom_field %}{%- endcapture -%}
+          {%- endif -%}
+
+          {%- if block.type == 'text' -%}
+            <div class="Form__Item">
+              {%- if block.settings.use_long_text -%}
+                <textarea name="contact[{{ field_title | escape }}]" cols="30" rows="10" class="Form__Textarea" aria-label="{{ block.settings.title | escape }}" placeholder="{{ block.settings.title | escape }}" {% if block.settings.is_required %}required{% endif %}></textarea>
+                <label class="Form__FloatingLabel">{{ block.settings.title | escape }}</label>
+              {%- else -%}
+                <input type="text" class="Form__Input" name="contact[{{ field_title | escape }}]" aria-label="{{ block.settings.title | escape }}" placeholder="{{ block.settings.title | escape }}" {% if block.settings.is_required %}required{% endif %}>
+                <label class="Form__FloatingLabel">{{ block.settings.title | escape }}</label>
+              {%- endif -%}
+            </div>
+           
+          {%- elsif block.type == 'dropdown' -%}
+            {%- assign values = block.settings.values | split: ',' -%}
+
+            {%- if values == empty -%}
+              {%- continue -%}
+            {%- endif -%}
+
+            <div class="Form__Item">
+              <div class="Form__Select Select Select--primary">
+                {%- render 'icon' with 'select-arrow' -%}
+
+                <select name="contact[{{ field_title | escape }}]" title="{{ block.settings.title | escape }}" required>
+                  <option value="" disabled selected>{{ block.settings.title | escape }}</option>
+
+                  {%- for value in values -%}
+                    {%- assign trim_value = value | strip -%}
+
+                    <option value="{{ trim_value | escape }}">{{ trim_value | escape }}</option>
+                  {%- endfor -%}
+                </select>
+              </div>
+            </div>
+          {%- endif -%}
+        {%- endfor -%}
+
+        <div class="Form__Item">
+          <textarea name="contact[body]" cols="30" rows="10" class="Form__Textarea" aria-label="{{ 'contact.form.message' | t }}" placeholder="{{ 'contact.form.message' | t }}" required></textarea>
+          <label class="Form__FloatingLabel">{{ 'contact.form.message' | t }}</label>
+        </div>
+
+        <button type="submit" class="Form__Submit Button Button--primary Button--full">{{ 'contact.form.submit' | t }}</button>
+      {%- endform -%}
+    </div>
+  </div>
+  </div>
+     </div>
+</div>
+</div>
+</div>
+
+{% schema %}
+{
+  "name": "Contact page",
+  "settings": [
+
+ {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        
+        },
+{
+          "type": "html",
+          "id": "content",
+          "label": "Content"
+        
+        },
+{
+          "type": "text",
+          "id": "address",
+          "label": "Address"
+        
+        },
+  {
+          "type": "text",
+          "id": "email",
+          "label": "Email"
+        
+        },
+       {
+          "type": "text",
+          "id": "job_oping",
+          "label": "Job opining"
+        
+        },
+      {
+          "type": "url",
+          "id": "job_oping_link",
+          "label": "Job opining link"
+        
+        },
+      {
+           "type": "text",
+          "id": "faq",
+          "label": "Faq"
+        
+        },
+     {
+           "type": "url",
+          "id": "faq_link",
+          "label": "Faq link"
+        
+        }
+
+],
+  "blocks": [
+    {
+      "type": "text",
+      "name": "Text field",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Name",
+          "default": "Custom field"
+        },
+        {
+          "type": "checkbox",
+          "id": "use_long_text",
+          "label": "Use long text",
+          "default": false
+        },
+        {
+          "type": "checkbox",
+          "id": "is_required",
+          "label": "Field is required",
+          "default": false
+        }
+      ]
+    },
+    {
+      "type": "dropdown",
+      "name": "Dropdown",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Name",
+          "default": "Custom field"
+        },
+        {
+          "type": "text",
+          "id": "values",
+          "label": "Values",
+          "info": "Separate each value by a comma.",
+          "default": "value 1, value 2, value 3"
+        }
+      ]
+    }
+  ],
+  "default": {
+    "blocks": [
+      {
+        "type": "text",
+        "settings": {
+          "title": "Your phone (optional)"
+        }
+      }
+    ]
+  }
+}
+{% endschema %}

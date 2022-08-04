@@ -1,0 +1,97 @@
+{
+  "sections": {
+    "165950303337b53614": {
+      "type": "collection-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/collection_banner.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/collection_banner_mobile.jpg",
+        "heading": "COLLECTION",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam accumsan justo erat. Fusce pharetra lobortis elit. Quisque tincidunt est imperdiet, placerat mi ut, accumsan ligula. Mauris dictum aliquam arcu ornare porttitor. Maecenas non nibh at neque dictum tempor vel nec dui."
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "blocks": {
+        "5b42b9b3-ff59-445b-bffa-fd5899297cca": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "select_collection": "juvia-travel-kit",
+            "icon_image": "shopify:\/\/shop_images\/Mask_Group_169.jpg",
+            "heading": "Reliability Commitment",
+            "sub_heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis efficitur ex viverra sollicitudin. Maecenas blandit est at mi varius congue. Donec sed sodales mauris."
+          }
+        }
+      },
+      "block_order": [
+        "5b42b9b3-ff59-445b-bffa-fd5899297cca"
+      ],
+      "settings": {
+        "show_collection_info": false,
+        "show_collection_image": false,
+        "apply_overlay": false,
+        "show_color_swatch": false,
+        "show_vendor": false,
+        "collection_image_size": "small",
+        "show_sort_by": false,
+        "show_layout_switch": false,
+        "toolbar_position": "top",
+        "show_filters": false,
+        "show_filter_color_swatch": true,
+        "expand_filters": true,
+        "filter_position": "sidebar",
+        "filter_menu": "",
+        "grid_items_per_page": 16,
+        "grid_mobile_items_per_row": "2",
+        "grid_desktop_items_per_row": 3
+      }
+    },
+    "165950159446d5e215": {
+      "type": "collection-content-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Mask_Group_169.jpg",
+        "product_head": "Reliability Commitment",
+        "ab_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis efficitur ex viverra sollicitudin. Maecenas blandit est at mi varius congue. Donec sed sodales mauris.<\/p>"
+      }
+    },
+    "1659418917363edf81": {
+      "type": "custom-latest-article",
+      "blocks": {
+        "16594189174423b12d-0": {
+          "type": "blog",
+          "settings": {
+            "blog": "news"
+          }
+        }
+      },
+      "block_order": [
+        "16594189174423b12d-0"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Related Articles",
+        "show_category": false,
+        "show_tag": false,
+        "button_link": "",
+        "button_text": "View all articles"
+      }
+    },
+    "recently-viewed-products": {
+      "type": "recently-viewed-products",
+      "disabled": true,
+      "settings": {
+        "title": "Recently viewed",
+        "show_product_info": true,
+        "show_vendor": false,
+        "show_color_swatch": false
+      }
+    }
+  },
+  "order": [
+    "165950303337b53614",
+    "main",
+    "165950159446d5e215",
+    "1659418917363edf81",
+    "recently-viewed-products"
+  ]
+}

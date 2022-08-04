@@ -1,0 +1,53 @@
+<section class="testimonial-main">
+  <div class="container">
+    <div class="row">
+	  <div class="col-md-12 text-center">
+        <div class="testimonial-part">
+          <div class="testimonial-content">
+            <p>{{section.settings.content}}</p>
+            <h3>{{section.settings.copyright}}</h3>
+          </div>
+          <div class="bottom-atach">
+            <img src="{{section.settings.back_image |img_url:'master'}}" alt=""/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Testimonial Landing",
+    "settings": [
+
+{ 
+      "type": "text",
+      "id": "content",
+      "label": "Content"
+},
+{ 
+      "type": "text",
+      "id": "copyright",
+      "label": "Text"
+},  { 
+      "type": "image_picker",
+      "id": "back_image",
+      "label": "Image" 
+  }
+],
+"presets": [
+    {
+      "category": "Testimonial Landing",
+      "name": "Testimonial Landing",
+      "settings": {}
+    }
+  ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

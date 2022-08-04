@@ -1,0 +1,574 @@
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<div class="container">
+  <div class="main_heading">
+  <h2>{{ section.settings.title }}</h2>
+  <p>{{ section.settings.content }}</p>
+  </div>
+    <div class="tab-group rates-page-tabs">
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs responsive" role="tablist">
+            <li role="presentation" class="active"><a href="#product" aria-controls="product" role="tab" data-toggle="tab">{{ section.settings.product }} </a></li>
+            <li role="presentation"><a href="#the-app" aria-controls="the-app" role="tab" data-toggle="tab">{{ section.settings.the_app }} </a></li>
+            <li role="presentation"><a href="#delivery" aria-controls="delivery" role="tab" data-toggle="tab">{{ section.settings.delivery }}</a></li>
+            <li role="presentation"><a href="#subscriptions" aria-controls="checking-savings-rates" role="tab" data-toggle="tab">{{ section.settings.subscription }}</a></li>
+        </ul>
+
+        <!-- Tab panes -->
+       <div class="tab-content responsive">
+            <div role="tabpanel" class="tab-pane active" id="product">
+                <div class="panel-group" id="accordion">
+                 <h2> {{ section.settings.product }}</h2>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                   {{ section.settings.first_question }} 
+                                </a>
+                            </h4>
+                        </div><!--/.panel-heading -->
+                        <div id="collapseOne" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                        {{ section.settings.first_answer }} 
+                        </div><!--/.panel-collapse -->
+                    </div><!-- /.panel -->
+                    </div>
+                  
+               {% assign variable = 0 %}
+                {% for block in section.blocks %}
+                    {% assign variable = variable | plus:1 %}
+                       {%  case block.type %} 
+                   {%  when 'product'  %} 
+                    
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse_{{variable}}">
+                               {{ block.settings.question }}  
+                                </a>
+                            </h4>
+                        </div><!--/.panel-heading -->
+                        <div id="collapse_{{variable}}" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                 {{ block.settings.answer }}
+                            </div><!--/.panel-body -->
+                        </div><!--/.panel-collapse -->
+                    </div><!-- /.panel -->
+                  {% endcase %}
+                {% endfor %}
+                </div>
+            </div>
+          <div role="tabpanel" class="tab-pane" id="the-app"> 
+             <div class="panel-group" id="accordion_2">
+                 <h2> {{ section.settings.the_app }}</h2>
+                {% assign tab2 = 0 %}
+                {% for block in section.blocks %}
+                    {% assign tab2 = tab2 | plus:1 %}
+                       {%  case block.type %} 
+                   {%  when 'the-app'  %}  
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse_{{tab2}}">
+                                  {{ block.settings.the_app_question }} 
+                                </a>
+                            </h4>
+                        </div><!--/.panel-heading -->
+                        <div id="collapse_{{tab2}}" class="panel-collapse collapse">
+                            <div class="panel-body">
+                               {{ block.settings.the_app_answer }}  
+                             </div><!--/.panel-body -->
+                        </div><!--/.panel-collapse -->
+                    </div><!-- /.panel -->
+                {% endcase %}
+              {% endfor %}
+                </div><!-- /.panel-group -->
+            </div>
+         
+               <div role="tabpanel" class="tab-pane" id="delivery">
+             <div class="panel-group" id="accordion_3">
+                    <h2> {{ section.settings.delivery }}</h2>
+                  {% assign  tab3 = 0 %}
+                {% for block in section.blocks %}
+                  {% assign tab3 = tab3 | plus:1 %}
+                   {%  case block.type %} 
+                     {%  when 'delivery'  %} 
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse_{{ tab3 }}">
+                                 {{ block.settings.delivery_question }}  
+                                </a>
+                            </h4>
+                        </div><!--/.panel-heading -->
+                        <div id="collapse_{{ tab3 }}" class="panel-collapse collapse">
+                            <div class="panel-body">
+                          {{ block.settings.delivery_answer }} 
+                            </div><!--/.panel-body -->
+                        </div><!--/.panel-collapse -->
+                    </div><!-- /.panel -->
+                     {% endcase %}
+                     {% endfor %}
+               
+                </div><!-- /.panel-group -->
+          </div>
+         
+   <div role="tabpanel" class="tab-pane" id="subscriptions"> 
+             <div class="panel-group" id="accordion_4">
+               <h2> {{ section.settings.subscription }} </h2>
+                {% assign tab4 = 0 %}
+                {% for block in section.blocks %}
+                    {% assign tab4 = tab4 | plus:1 %}
+                       {%  case block.type %} 
+                   {%  when 'subscription'  %}  
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse_{{tab4}}">
+                                  {{ block.settings.subscription_question }} 
+                                </a>
+                            </h4>
+                        </div><!--/.panel-heading -->
+                        <div id="collapse_{{tab4}}" class="panel-collapse collapse">
+                            <div class="panel-body">
+                               {{ block.settings.subscription_answer }}  
+                             </div><!--/.panel-body -->
+                        </div><!--/.panel-collapse -->
+                    </div><!-- /.panel -->
+                {% endcase %}
+              {% endfor %}
+                </div><!-- /.panel-group -->
+            </div>
+        </div>
+    </div>
+
+</div><!-- /.container -->
+<!-- partial -->
+<style>
+.rates-page-tabs .nav-tabs>li>a {
+  border: none;
+  text-transform: uppercase;
+  color: #7D7D7D;
+}
+.rates-page-tabs .nav-tabs>li>a:hover,
+.rates-page-tabs .nav-tabs>li>a:focus {
+  color: red;
+  background-color: white;
+  box-shadow: 0px -2px 0px red inset;
+}
+.rates-page-tabs .nav-tabs>li.active>a,
+.rates-page-tabs .nav-tabs>li.active>a:focus,
+.rates-page-tabs .nav-tabs>li.active>a:hover {
+  border: none;
+  box-shadow: 0px -2px 0px red inset;
+  color: red;
+}
+.panel-group .panel-heading + .panel-collapse > .panel-body {
+  border: 1px solid #ddd;
+}
+.rates-page-tabs .panel-group,
+.rates-page-tabs .panel-group .panel,
+.rates-page-tabs .panel-group .panel-heading,
+.rates-page-tabs .panel-group .panel-heading a,
+.rates-page-tabs .panel-group .panel-title,
+.rates-page-tabs .panel-group .panel-title a,
+.rates-page-tabs .panel-group .panel-body,
+.rates-page-tabs .panel-group .panel-group .panel-heading + .panel-collapse > .panel-body {
+  border-radius: 2px;
+  border: 0;
+}
+.rates-page-tabs .panel-group .panel-heading {
+  padding: 0;
+  background-color: white;
+}
+.rates-page-tabs .panel-group .panel-heading a {
+  display: block;
+  color: #303030;
+  font-size: 18px;
+  padding: 15px 15px 15px 45px;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: relative;
+}
+.rates-page-tabs .panel-group .panel-heading a.collapsed {
+}
+.rates-page-tabs .panel-group .panel-heading a:after {
+  content: '-';
+  position: absolute;
+/*   left: 14px; */
+  top: 8px;
+  font-size:26px;
+}
+.rates-page-tabs .panel-group .panel-heading a.collapsed:after {
+  content: '+';
+/*   left: 10px; */
+  top: 10px;
+}
+.rates-page-tabs .panel-group .panel-collapse {
+  margin-top: 5px !important;
+}
+.rates-page-tabs .panel-group .panel-body {
+  background: #FFFFFF;
+  padding: 15px;
+}
+.rates-page-tabs .panel-group .panel {
+  background-color: transparent;
+}
+.rates-page-tabs .panel-group .panel-body p:last-child,
+.rates-page-tabs .panel-group .panel-body ul:last-child,
+.rates-page-tabs .panel-group .panel-body ol:last-child {
+  margin-bottom: 0;
+}
+</style>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'>
+<script> 
+  var fakewaffle = (function($, fakewaffle) {
+  "use strict";
+
+  fakewaffle.responsiveTabs = function(collapseDisplayed) {
+    fakewaffle.currentPosition = "tabs";
+
+    var tabGroups = $(".nav-tabs.responsive");
+    var hidden = "";
+    var visible = "";
+    var activeTab = "";
+
+    if (collapseDisplayed === undefined) {
+      collapseDisplayed = ["xs", "sm"];
+    }
+
+    $.each(collapseDisplayed, function() {
+      hidden += " hidden-" + this;
+      visible += " visible-" + this;
+    });
+
+    $.each(tabGroups, function(index) {
+      var collapseDiv;
+      var $tabGroup = $(this);
+      var tabs = $tabGroup.find("li a");
+
+      if ($tabGroup.attr("id") === undefined) {
+        $tabGroup.attr("id", "tabs-" + index);
+      }
+
+      collapseDiv = $("<div></div>", {
+        class: "panel-group responsive" + visible,
+        id: "collapse-" + $tabGroup.attr("id")
+      });
+
+      $.each(tabs, function() {
+        var $this = $(this);
+        var oldLinkClass =
+          $this.attr("class") === undefined ? "" : $this.attr("class");
+        var newLinkClass = "accordion-toggle";
+        var oldParentClass =
+          $this.parent().attr("class") === undefined
+            ? ""
+            : $this.parent().attr("class");
+        var newParentClass = "panel panel-default";
+        var newHash = $this.get(0).hash.replace("#", "collapse-");
+
+        if (oldLinkClass.length > 0) {
+          newLinkClass += " " + oldLinkClass;
+        }
+
+        if (oldParentClass.length > 0) {
+          oldParentClass = oldParentClass.replace(/\bactive\b/g, "");
+          newParentClass += " " + oldParentClass;
+          newParentClass = newParentClass.replace(/\s{2,}/g, " ");
+          newParentClass = newParentClass.replace(/^\s+|\s+$/g, "");
+        }
+
+        if ($this.parent().hasClass("active")) {
+          activeTab = "#" + newHash;
+        }
+
+        collapseDiv.append(
+          $("<div>")
+            .attr("class", newParentClass)
+            .html(
+              $("<div>")
+                .attr("class", "panel-heading")
+                .html(
+                  $("<h4>")
+                    .attr("class", "panel-title")
+                    .html(
+                      $("<a>", {
+                        class: newLinkClass,
+                        "data-toggle": "collapse",
+                        "data-parent": "#collapse-" + $tabGroup.attr("id"),
+                        href: "#" + newHash,
+                        html: $this.html()
+                      })
+                    )
+                )
+            )
+            .append(
+              $("<div>", {
+                id: newHash,
+                class: "panel-collapse collapse"
+              })
+            )
+        );
+      });
+
+      $tabGroup.next().after(collapseDiv);
+      $tabGroup.addClass(hidden);
+      $(".tab-content.responsive").addClass(hidden);
+
+      if (activeTab) {
+        $(activeTab).collapse("show");
+      }
+    });
+
+    fakewaffle.checkResize();
+    fakewaffle.bindTabToCollapse();
+  };
+
+  fakewaffle.checkResize = function() {
+    if (
+      $(".panel-group.responsive").is(":visible") === true &&
+      fakewaffle.currentPosition === "tabs"
+    ) {
+      fakewaffle.tabToPanel();
+      fakewaffle.currentPosition = "panel";
+    } else if (
+      $(".panel-group.responsive").is(":visible") === false &&
+      fakewaffle.currentPosition === "panel"
+    ) {
+      fakewaffle.panelToTab();
+      fakewaffle.currentPosition = "tabs";
+    }
+  };
+
+  fakewaffle.tabToPanel = function() {
+    var tabGroups = $(".nav-tabs.responsive");
+
+    $.each(tabGroups, function(index, tabGroup) {
+      // Find the tab
+      var tabContents = $(tabGroup)
+        .next(".tab-content")
+        .find(".tab-pane");
+
+      $.each(tabContents, function(index, tabContent) {
+        // Find the id to move the element to
+        var destinationId = $(tabContent)
+          .attr("id")
+          .replace(/^/, "#collapse-");
+
+        // Convert tab to panel and move to destination
+        $(tabContent)
+          .removeClass("tab-pane")
+          .addClass("panel-body fw-previous-tab-pane")
+          .appendTo($(destinationId));
+      });
+    });
+  };
+
+  fakewaffle.panelToTab = function() {
+    var panelGroups = $(".panel-group.responsive");
+
+    $.each(panelGroups, function(index, panelGroup) {
+      var destinationId = $(panelGroup)
+        .attr("id")
+        .replace("collapse-", "#");
+      var destination = $(destinationId).next(".tab-content")[0];
+
+      // Find the panel contents
+      var panelContents = $(panelGroup).find(
+        ".panel-body.fw-previous-tab-pane"
+      );
+
+      // Convert to tab and move to destination
+      panelContents
+        .removeClass("panel-body fw-previous-tab-pane")
+        .addClass("tab-pane")
+        .appendTo($(destination));
+    });
+  };
+
+  fakewaffle.bindTabToCollapse = function() {
+    var tabs = $(".nav-tabs.responsive").find("li a");
+    var collapse = $(".panel-group.responsive").find(".panel-collapse");
+
+    // Toggle the panels when the associated tab is toggled
+    tabs.on("shown.bs.tab", function(e) {
+      if (fakewaffle.currentPosition === "tabs") {
+        var $current = $(e.currentTarget.hash.replace(/#/, "#collapse-"));
+        $current.collapse("show");
+
+        if (e.relatedTarget) {
+          var $previous = $(e.relatedTarget.hash.replace(/#/, "#collapse-"));
+          $previous.collapse("hide");
+        }
+      }
+    });
+
+    // Toggle the tab when the associated panel is toggled
+    collapse.on("shown.bs.collapse", function(e) {
+      if (fakewaffle.currentPosition === "panel") {
+        // Activate current tabs
+        var current = $(e.target).context.id.replace(/collapse-/g, "#");
+        $('a[href="' + current + '"]').tab("show");
+
+        // Update the content with active
+        var panelGroup = $(e.currentTarget).closest(".panel-group.responsive");
+        $(panelGroup)
+          .find(".panel-body")
+          .removeClass("active");
+        $(e.currentTarget)
+          .find(".panel-body")
+          .addClass("active");
+      }
+    });
+  };
+
+  $(window).resize(function() {
+    fakewaffle.checkResize();
+  });
+
+  return fakewaffle;
+})(window.jQuery, fakewaffle || {});
+
+
+
+(function($) {
+  fakewaffle.responsiveTabs(['xs']);
+})(jQuery);
+</script>
+
+{% schema %}
+  {
+    "name": "Faqs",
+    "settings": [
+  {
+  "type": "text",
+  "id": "title",
+  "label": "Title"
+  }, {
+  "type": "text",
+  "id": "content",
+  "label": "content"
+  },
+  {
+  "type": "text",
+  "id": "product",
+  "label": "Product Title"
+  },
+  {
+  "type": "text",
+  "id": "the_app",
+  "label": "The App Title"
+  },
+  {
+  "type": "text",
+  "id": "delivery",
+  "label": "Delivery Title"
+  },
+  
+  {
+  "type": "text",
+  "id": "subscription",
+  "label": "subscription Title"
+  },
+  {
+  "type": "text",
+  "id": "first_question",
+  "label": "First question"
+  },
+  {
+  "type": "html",
+  "id": "first_answer",
+  "label": "First answer"
+ }
+],
+"blocks":[
+    {
+    "type":"product",
+    "name":"Product",
+    "settings":[
+    {
+    "type":"text",
+    "id":"question",
+    "label":"Question",
+    "default": "Question"
+    
+    },
+    {
+    "type":"html",
+    "id":"answer",
+    "label":"Answer",
+    "default": "Answer"
+    }
+    ]
+    },
+    {
+    "type":"the-app",
+    "name":"The App",
+    "settings":[
+    {
+    "type":"text",
+    "id":"the_app_question",
+    "label":"Question",
+    "default": "Question"
+    
+    },
+    {
+    "type":"html",
+    "id":"the_app_answer",
+    "label":"Answer",
+    "default": "Answer"
+    }
+    ]
+    },
+     {
+    "type":"delivery",  
+    "name":"Delivery",
+    "settings":[
+    {
+    "type":"text",
+    "id":"delivery_question",
+    "label":"Question",
+    "default": "Question"
+    
+    },
+    {
+    "type":"html",
+    "id":"delivery_answer",
+    "label":"Answer",
+    "default": "Answer"
+    }
+    ]
+    },
+     {
+    "type":"subscription",
+    "name":"Subscription",
+    "settings":[
+    {
+    "type":"text",
+    "id":"subscription_question",
+    "label":"Question",
+    "default": "Question"
+    },
+    {
+    "type":"html",
+    "id":"subscription_answer",
+    "label":"Answer",
+    "default": "Answer" 
+   }
+  ]
+ }
+],
+    "presets":[
+     {
+      "name": "Faqs",
+       "category" :"text"
+        }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

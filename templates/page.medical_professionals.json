@@ -1,0 +1,145 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_large": false
+      }
+    },
+    "16595045194efce975": {
+      "type": "About-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/banner_img.jpg",
+        "heading": "JUVIA™ for Healthcare Professionals",
+        "content": "<p>Welcome to JUVIA’s healthcare professionals page. This area of the site is intended to provide additional and detailed scientific information about JUVIA, ERME™ and the gut microbiome.<\/p>"
+      }
+    },
+    "165950989481a8d764": {
+      "type": "why-juvia-section",
+      "settings": {
+        "heading": "Why JUVIA?",
+        "content": "<p><strong>JUVIA is a groundbreaking digestive food supplement designed to help you live your life the way you want to. It’s backed by science, and informed by decades of research into gut health.<\/strong><\/p><p>Our Research1 shows that many people with digestive issues like IBS are still searching for a solution that really works for them. This is because our gut flora is as unique and distinctive as we are.<\/p><p>Our scientific research suggests that JUVIA, which is powered by ERME™ (more on that in a moment…), can help with digestion. Our initial study showed that participants’ digestive problems significantly improved after taking JUVIA. Hydrogen breath levels (which are a marker for poor carbohydrate metabolism) were significantly lower after consuming ERME vs control2. A small open label study showed that after 4 weeks of taking ERME, the overall constipation score significantly reduced, too.3<\/p><p>JUVIA is a supplement that works with individual gut flora, instead of introducing new bacteria like other probiotic supplements might. Our product contains our unique natural plant-based ingredient ERME, which is derived from enzyme-rich malt extract.<\/p><p>The active digestive enzymes in ERME help break down carbohydrates that irritate the gut, allowing unique natural flora to thrive. ERME improves the microbiome without the need for a diet low in FODMAPs4.<\/p>",
+        "right_image": "shopify:\/\/shop_images\/why_juvia.png",
+        "arrow_image": "shopify:\/\/shop_images\/grey-tri.png"
+      }
+    },
+    "1659521478037b6f37": {
+      "type": "daily-routine",
+      "blocks": {
+        "1f5c357e-ffd7-4b56-8c65-3d34ca1d54ec": {
+          "type": "references_list",
+          "settings": {
+            "li_link": "",
+            "li_text": "Törnblom H, Goosey R, Wiseman G, Baker S, Emmanuel A. Understanding symptom burden and attitudes to irritable bowel syndrome with diarrhoea: Results from patient and healthcare professional surveys. United European Gastroenterol J. 2018 Nov; 6(9): 1417–1427. PMCID: PMC6206540; PMID: 30386615"
+          }
+        },
+        "32675115-ec62-4a47-8996-25a419603ea5": {
+          "type": "references_list",
+          "settings": {
+            "li_link": "",
+            "li_text": "Breath Hydrogen with and without ERMETM. Data on File."
+          }
+        },
+        "183c09e8-230c-4681-9c51-40cfc7583572": {
+          "type": "references_list",
+          "settings": {
+            "li_link": "",
+            "li_text": "As determined by a Knowles-Eccersley-Scott Symptoms questionnaire. ERME Constipation abstract British Society of Gastroenterology Conference 2022"
+          }
+        },
+        "c6aa860d-c7b3-4688-a0b5-944d75d3eceb": {
+          "type": "references_list",
+          "settings": {
+            "li_link": "",
+            "li_text": "FODMAPs or fermentable oligosaccharides, disaccharides, monosaccharides, and polyols are carbohydrates that are poorly absorbed in the small intestine. Prone to absorb water and ferment in the colon, FODMAPs may cause digestive discomfort in some people"
+          }
+        },
+        "866b1d55-ced5-4932-b0f1-5b87a90d8174": {
+          "type": "references_list",
+          "settings": {
+            "li_link": "",
+            "li_text": "Breath Hydrogen with and without ERMETM. Data on File."
+          }
+        },
+        "9eae126f-a075-49fa-91d6-a9dc677a19f8": {
+          "type": "references_list",
+          "settings": {
+            "li_link": "https:\/\/www.bsg.org.uk\/news\/national-report-for-gastroenterology-will-help-the-nhs-recover-services-and-deal-with-future-surges-of-covid-19\/",
+            "li_text": "https:\/\/www.bsg.org.uk\/news\/national-report-for-gastroenterology-will-help-the-nhs-recover-services-and-deal-with-future-surges-of-covid-19\/"
+          }
+        },
+        "6c68428b-386a-4899-9f88-badf9c9c383f": {
+          "type": "references_list",
+          "settings": {
+            "li_link": "https:\/\/bmj.com",
+            "li_text": "Burden of irritable bowel syndrome in an increasingly cost-aware National Health Service | Frontline Gastroenterology (bmj.com)"
+          }
+        }
+      },
+      "block_order": [
+        "1f5c357e-ffd7-4b56-8c65-3d34ca1d54ec",
+        "32675115-ec62-4a47-8996-25a419603ea5",
+        "183c09e8-230c-4681-9c51-40cfc7583572",
+        "c6aa860d-c7b3-4688-a0b5-944d75d3eceb",
+        "866b1d55-ced5-4932-b0f1-5b87a90d8174",
+        "9eae126f-a075-49fa-91d6-a9dc677a19f8",
+        "6c68428b-386a-4899-9f88-badf9c9c383f"
+      ],
+      "settings": {
+        "product_head": "An easy addition to the daily routine",
+        "ab_content": "<p>JUVIA comes in 450ml bottles and is designed to be taken daily. It’s a thick, slightly sweet liquid supplement that can be served in several ways.<\/p> \n<p>You can take JUVIA straight from the spoon or add it to cold foods and drinks. For example, stirred into a smoothie or drizzled over fruit. JUVIA must not be mixed with hot food or drink, as heat will cause the enzyme to not work properly.<\/p> \n<p>The JUVIA process starts with the Rebalancing Phase over the first six weeks. During this phase adults (12+) take 1.5 tbsps (22ml) twice a day before or after meals.<\/p>\n<p>Then some users may choose to move on to the Maintenance Phase from week seven. During this phase, the serving can be gradually reduced to 1 tbsp (15ml) once a day, before or after meals.<\/p>\n<p>Some people will choose to continue the Rebalancing Phase even after the first six weeks as this suits their gut flora best.<\/p>",
+        "product_head2": "How ERME™ works",
+        "ab_content2": "<p>Our research suggests ERME works in two ways − it consists of a range of enzymes, including amylases and glucanases, which break down starch and plant materials into glucose and other simple carbohydrates early in the digestive process and provide energy. This means that much less starch is available for mal-fermentation in the lower gut.<\/p>\n<p>The enzymes are surrounded by a matrix comprised mostly of malt polysaccharides, which protects the enzymes as they pass through the stomach. The matrix also re-balances the naturally-existing microbiome, improving the levels of ‘good’ bacteria. Unlike probiotics, alien bacterial species are not introduced.<\/p>\n<p>To the best of our knowledge, ERME is the first product that attempts to specifically address the causes and the symptoms of certain types of IBS by optimising carbohydrate metabolism and mal-fermentation.<\/p>\n<p>Research into ERME has been pioneered by leading experts in diseases of the gut and human toxicology - Professor John Hunter, Addenbrooke’s, and Dr Rosemary Waring, University of Birmingham. This is following decades of research into the microbiome and links to gut health.<\/p>",
+        "image": "shopify:\/\/shop_images\/daily_routin_img.jpg",
+        "ab_head_2": "The microbiome and gut health",
+        "ab_content_2": "<p>The human gut is full of billions of bacteria with viruses and fungi, which are collectively known as ‘the microbiome’. A balanced microbiome is crucial for multiple areas of health and wellness.<\/p>\n<p>The bacteria in the microbiome help to regulate the immune system and protect against other bacteria that cause diseases. They also help to digest food, breaking it down (’fermenting’ it) into small molecules that are used for energy and metabolism. \n<\/p><p>If too much carbohydrate is present or if the breakdown is inefficient, then ‘bad’ bacteria proliferate, producing toxic chemicals which irritate the gut.<\/p> \n<p>This unbalanced microbiome is linked with a number of health problems, including obesity, diabetes and irritable bowel syndrome (IBS).<\/p>",
+        "ab_head_3": "JUVIA: research and testing",
+        "ab_content_3": "<ul>\n<li>An initial pilot study showed that IBS sufferers’ symptoms were significantly improved after taking the recommended dosage. Hydrogen breath levels (a marker for poor carbohydrate metabolism)  after eating bread were significantly lower with ERME vs Control<sup>5<\/sup>\n<\/li>\n<li>A small open-label pilot study of 15 patients showed that after 4 weeks of ERME, the overall constipation score was significantly reduced as determined by a Knowles-Eckersley-Scott Symptoms questionnaire<\/li>\n<li>ERME is being investigated in a randomised, placebo-controlled, double-blind study examining a number of IBS symptoms, lifestyle factors and biomarkers. The trial has concluded, and results are expected later in 2022<\/li>\n<li>ERME is being investigated using the cutting-edge techniques of metabolomics (the metabolite changes in the microbiome) and metagenomics (identifying the species in the microbiome by looking at the DNA\/RNA).  This is important because conventional culture techniques cannot identify most gut bacteria<\/li>\n<\/ul>\n<p>Find out more <a href=\"\">about us.<\/a><\/p>",
+        "product_head3": "How can JUVIA help you as a healthcare professional?",
+        "ab_content3": "<ul>\n<li>GI problems are common in primary care, accounting for about one in 10 consultations and IBS is by far the most common gastrointestinal condition seen by GPs6<\/li>\n<li>Outpatient attendances to gastroenterology and colorectal surgery specialities for patients with IBS or IBS-related symptoms are increasing, accounting for approximately 7.5% of total outpatient attendances across all specialities in the UK and costing the NHS almost £12m7<\/li>\n<li>Research has shown that both GPs and people with IBS feel frustrated at the lack of effective treatments<\/li>\n<\/ul>\n<p>Learn more about <a href=\"https:\/\/juvia.me\/\">JUVIA<\/a>, or visit our blog for more information.<\/p>",
+        "ab_head_5": "References"
+      }
+    },
+    "165951479290e0c9ad": {
+      "type": "medical-professionals-signup",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/bg_main.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Image_165.jpg",
+        "red_image": "shopify:\/\/shop_images\/JUVIA_image.png",
+        "heading": "Want product news and updates?",
+        "content": "SIGN UP FOR OUR NEWSLETTER"
+      }
+    },
+    "165951163760f534df": {
+      "type": "custom-latest-article",
+      "blocks": {
+        "1659511636e8093c47-0": {
+          "type": "blog",
+          "settings": {
+            "blog": "news"
+          }
+        }
+      },
+      "block_order": [
+        "1659511636e8093c47-0"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Blog posts",
+        "show_category": false,
+        "show_tag": false,
+        "button_link": "",
+        "button_text": "View all articles"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16595045194efce975",
+    "165950989481a8d764",
+    "1659521478037b6f37",
+    "165951479290e0c9ad",
+    "165951163760f534df"
+  ]
+}

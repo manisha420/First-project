@@ -1,0 +1,209 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "product_meta": {
+          "type": "product_meta",
+          "settings": {
+            "show_vendor": false,
+            "show_sku": false,
+            "show_product_rating": false,
+            "show_taxes_included": false
+          }
+        },
+        "share_buttons": {
+          "type": "share_buttons",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+            "show_label": false
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price_in_button": false,
+            "show_payment_button": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "3bffbdc3-672b-4744-bbc8-52d03eec16e4": {
+          "type": "content",
+          "settings": {
+            "title": "Product Details",
+            "content": "<p>JUVIA is a liquid food supplement, available in 200ml bottles. <strong>JUVIA is designed to work with your gut flora to help break down carbohydrates<\/strong>, before they can trigger any digestive issues.<\/p>\n<p>JUVIA is plant-based, made with ERME™, which is derived from barley. Suitable for vegetarians and vegans. <strong>Contains gluten.<\/strong><\/p>\n<p>The product will come in a thick liquid form (similar in texture and taste to runny honey). You can take it on its own from a tablespoon, mixed in some water or any other cold drink, in your cereal, in a salad or any other cold food.<\/p>\n<b>How to take JUVIA:<\/b>\n<ul>\n<li>\n<strong>Rebalancing Phase (first 6 weeks)<\/strong>: Take 1.5 tablespoons (22ml) twice a day, immediately before or after meals (e.g. 1.5 tbsp with breakfast and 1.5 tbsp with dinner).<\/li>\n<li>\n<strong>Maintenance Phase (6 weeks +)<\/strong>: Reduce to one 15ml tablespoon per day, immediately before or after your main meal.<\/li>\n<\/ul>\n<p>It’s important to note that everyone is different, and you may find that you’re more comfortable continuing the Rebalancing Phase.<\/p>\n<p>JUVIA is not suitable for children under 5. Children aged 5-12 should take half the recommended daily dose (11ml twice a day in the Rebalancing Phase, and 7.5ml once per day during the Maintenance Phase).<\/p><p><\/p>\n<ul class=\"tab_li\">\n<strong><li>Free delivery<\/li>\n<u><li><a href=\"https:\/\/juvia.me\/pages\/refund-policy\" title=\"30 day money back guarantee\" style=\"color: white\">30-day money-back guarantee<\/a><\/li><\/u>\n<li>Free app to track your progress<\/li>\n<li>Easy daily routine<\/li><\/strong>\n<\/ul>",
+            "page": ""
+          }
+        },
+        "feff68c4-7ec2-48a7-8f9d-2ab8b7104ee3": {
+          "type": "content",
+          "settings": {
+            "title": "Shipping & Returns",
+            "content": "<strong><p>FREE tracked shipping with Zendbox Fulfilment. Track your parcel via a link on your order dispatch email confirmation.<\/p>\n<p>Usually, your JUVIA will be with you within 1-3 working days. Most of our customers receive their order within 24 hours.<\/p>\n<p>We currently offer shipping to the UK only.<\/p><\/strong>\n<p><\/p>\n<p><b>RETURNS<\/b><\/p>\n<p>We offer a full money-back guarantee on your first order if you decide JUVIA is not for you. To be eligible, you must contact us within 30 days of trying your first purchase of JUVIA.<\/p>\n<p>In addition to our 30-day money-back guarantee on first orders, we have a 14-day return policy, which means you have 14 days after receiving your item to request a return.<\/p>\n\n<p><u><a href=\"https:\/\/juvia.me\/pages\/refund-policy\" title=\"30 day money back guarantee\" style=\"color: white\">Our returns policy<\/a><\/u><\/p>",
+            "page": ""
+          }
+        },
+        "cb2f3bf2-366a-48fa-b534-0cf6615fa0f4": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "title": "FAQs",
+            "content": "<p>demo<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_meta",
+        "share_buttons",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "3bffbdc3-672b-4744-bbc8-52d03eec16e4",
+        "feff68c4-7ec2-48a7-8f9d-2ab8b7104ee3",
+        "cb2f3bf2-366a-48fa-b534-0cf6615fa0f4"
+      ],
+      "settings": {
+        "image_size": "large",
+        "stack_images": true,
+        "show_thumbnails": true,
+        "enable_image_zoom": true,
+        "enable_video_looping": false,
+        "tab_img": "shopify:\/\/shop_images\/Product-details.jpg",
+        "science": "Learn more",
+        "science_link": "#",
+        "maintenance": "<p>Start your journey with the Rebalancing Phase (4 bottles), which is required for the first 6 weeks and then move on to the Maintenance Phase (2 bottles every 8 weeks)<\/p>",
+        "rebalancing": "<p>Start your journey with the Rebalancing Phase (4 bottles), which is required for the first 6 weeks and then move on to the Maintenance Phase (2 bottles every 8 weeks)<\/p>",
+        "from_price": "£39.00",
+        "guarantee_link": "https:\/\/juvia.me\/pages\/refund-policy"
+      }
+    },
+    "165718667431b62cd9": {
+      "type": "Freedom-from",
+      "blocks": {
+        "ed3a1b8c-c1e1-4dd9-93c2-c70925f47858": {
+          "type": "image",
+          "settings": {
+            "select_product": "digestive-balance-formula",
+            "icon_image": "shopify:\/\/shop_images\/Powered-by-plants.jpg",
+            "heading": "Powered by plants",
+            "sub_heading": "JUVIA is a natural food supplement made with ERME™, derived from barley",
+            "icon_image_two": "shopify:\/\/shop_images\/daily-routine.jpg",
+            "heading_two": "Your daily routine",
+            "sub_heading_two": "Simply take your daily dosage with, before or after meals to start your journey to wellness",
+            "icon_image_thired": "shopify:\/\/shop_images\/Back-by-science.jpg",
+            "heading_thired": "Backed by science",
+            "sub_heading_thired": "Created with cutting-edge science from world-leading gut health experts"
+          }
+        },
+        "0aafc68e-882f-4481-9126-84e182c935fd": {
+          "type": "image",
+          "settings": {
+            "select_product": "digestive",
+            "icon_image": "shopify:\/\/shop_images\/Powered-by-plants.jpg",
+            "heading": "heading",
+            "sub_heading": "sub heading",
+            "icon_image_two": "shopify:\/\/shop_images\/daily-routine.jpg",
+            "heading_two": "heading",
+            "sub_heading_two": "sub heading",
+            "icon_image_thired": "shopify:\/\/shop_images\/Back-by-science.jpg",
+            "heading_thired": "heading",
+            "sub_heading_thired": "sub heading"
+          }
+        }
+      },
+      "block_order": [
+        "ed3a1b8c-c1e1-4dd9-93c2-c70925f47858",
+        "0aafc68e-882f-4481-9126-84e182c935fd"
+      ],
+      "settings": {
+      }
+    },
+    "16571914060cb58b80": {
+      "type": "prod-img-text",
+      "blocks": {
+        "7690ce6b-1b15-4ad0-85db-0ada18923f4c": {
+          "type": "image",
+          "settings": {
+            "select_product": "digestive-balance-formula",
+            "icon_image": "shopify:\/\/shop_images\/juvia-app.jpg",
+            "content": "<br><li>Digestive supplement created by <b>gut experts<\/b>\n<\/li>\n\n<li>Simple <b>daily dosage<\/b> to take with your meals<\/li>\n\n<li>One-off purchase or <b>easy to manage<\/b> subscription<\/li>\n\n<li>\n<b>Free app<\/b> to track your progress and results<\/li>\n\n<li>\n<b>No more restrictive diets<\/b> - Freedom from within<\/li>\n\n<li>Developed to work with <b>your<\/b> gut flora<\/li><br>"
+          }
+        },
+        "b1ae6f39-7f0f-4502-b898-88debf172ad2": {
+          "type": "image",
+          "settings": {
+            "select_product": "digestive",
+            "icon_image": "shopify:\/\/shop_images\/juvia-app.jpg",
+            "content": "<li>Digestive supplement designed by gut experts<\/li>\n\n<li>Simple daily dosage to take with your meals<\/li>\n\n<li>One-off purchase or easy to manage subscription<\/li>\n\n<li>Free app to track your progress and monitor results<\/li>\n\n<li>No more restrictive diets - find your freedom within<\/li>\n\n<li>Developed to work with your gut flora<\/li>"
+          }
+        }
+      },
+      "block_order": [
+        "7690ce6b-1b15-4ad0-85db-0ada18923f4c",
+        "b1ae6f39-7f0f-4502-b898-88debf172ad2"
+      ],
+      "settings": {
+      }
+    },
+    "1657779088ee1b691c": {
+      "type": "custom-latest-article",
+      "disabled": true,
+      "blocks": {
+        "16577790882be7e817-0": {
+          "type": "blog",
+          "settings": {
+            "blog": "news"
+          }
+        }
+      },
+      "block_order": [
+        "16577790882be7e817-0"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "RELATED ARTICLES",
+        "show_category": false,
+        "show_tag": true,
+        "button_link": "",
+        "button_text": ""
+      }
+    },
+    "16576267862fc05842": {
+      "type": "apps",
+      "blocks": {
+        "8a42288c-f2cd-4ca9-a3b5-f896d759261f": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "8a42288c-f2cd-4ca9-a3b5-f896d759261f"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "165718667431b62cd9",
+    "16571914060cb58b80",
+    "1657779088ee1b691c",
+    "16576267862fc05842"
+  ]
+}
