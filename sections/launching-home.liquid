@@ -1,0 +1,88 @@
+<section class="home-page-launching">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="launching-part-content">
+           <div class="banner-form-main">
+          <div class="banner-form-part" id="sign_up_form">
+            <div class="klaviyo-form-U4926W"></div>
+          </div>
+        </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+         <div class="launching-image-part">
+           {% for block in section.blocks %}  
+           <div class="launching-image-div">
+        	<div class="row">
+              <div class="col-6">
+              <img src="{{block.settings.launch_image | img_url:'master'}}" alt=""/>
+              </div>
+              <div class="col-6">
+              <img src="{{block.settings.launch_image_two | img_url:'master'}}" alt=""/>
+              </div>
+           </div>
+           </div>
+           {% endfor %}
+          
+           <div class="launching-red-letter text-center">
+             <img src="{{section.settings.center_image | img_url:'master'}}" alt=""/>
+           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="grey-tri">
+     <img src="{{section.settings.arrow_image |img_url:'master'}}" alt=""/>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Launching For Home",
+    "settings": [
+  { 
+      "type": "image_picker",
+      "id": "center_image",
+      "label": "Center Image" 
+  }, 
+
+{ 
+      "type": "image_picker",
+      "id": "arrow_image",
+      "label": "Image" 
+  }
+],
+ "blocks": [
+    {
+      "type": "image",
+      "name": "image",
+      "settings": [
+    { 
+      "type": "image_picker",
+      "id": "launch_image",
+      "label": "Launch Image" 
+  }, 
+  { 
+      "type": "image_picker",
+      "id": "launch_image_two",
+      "label": "Launch Image" 
+  }
+ ]
+}
+],
+"presets": [
+    {
+      "category": "Launching For Home",
+      "name": "Launching For Home",
+      "settings": {}
+    }
+  ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

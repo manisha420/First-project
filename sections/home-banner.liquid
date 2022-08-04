@@ -1,0 +1,93 @@
+
+
+<section class="banner-part cust-hero-banner" style="background:url({{section.settings.banner_image_mobile |img_url :'master'}});">
+  <div class="banner-img-main">
+    <img src="{{section.settings.hero_banner_image |img_url :'master'}}" alt="">
+  </div>
+  <div class="banner-content-main">
+  <div class="container">
+	<div class="row">
+      <div class="col-md-12">
+        <div class="banner-cont">
+          <h1>{{section.settings.main_heading}}</h1>
+          <p>{{section.settings.content}}</p>	
+          <div class="home-banner-btn">
+
+            {% if section.settings.learn_more_btn_url != blank and section.settings.learn_more_btn != blank %}
+              <a class="learn_more_btn" href="{{section.settings.learn_more_btn_url}}">{{section.settings.learn_more_btn}}</a>
+            {% endif %}
+ 
+            {% if section.settings.why_it_btn_url != blank and section.settings.why_it_btn != blank %}
+              <a class="why_it_btn" href="{{section.settings.why_it_btn_url}}">{{section.settings.why_it_btn}}</a>
+            {% endif %}
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+
+<!-- Working above -->
+{% schema %}
+  {
+    "name": "Hero Banner",
+    "settings": [
+{ 
+      "type": "image_picker",
+      "id": "hero_banner_image",
+      "label": "Banner Image" 
+},
+
+{ 
+      "type": "image_picker",
+      "id": "banner_image_mobile",
+      "label": "Mobile Banner Image" 
+},
+{ 
+      "type": "text",
+      "id": "main_heading",
+      "label": "main_heading",
+      "default": "main-heading"
+},
+{ 
+      "type": "text",
+      "id": "content",
+      "label": "content",
+      "default": "Content"
+},
+{ 
+      "type": "text",
+      "id": "learn_more_btn",
+      "label": "Learn More Button"
+},
+{ 
+      "type": "url",
+      "id": "learn_more_btn_url",
+      "label": "Learn More link"
+},
+{ 
+      "type": "text",
+      "id": "why_it_btn",
+      "label": "Why It Button"
+},
+{ 
+      "type": "url",
+      "id": "why_it_btn_url",
+      "label": "Why It link"
+}
+
+],
+ "presets": [
+    {
+      "category": "Hero Banner",
+      "name": "Hero Banner",
+      "settings": {}
+    }
+  ]
+  }
+{% endschema %}
+
+

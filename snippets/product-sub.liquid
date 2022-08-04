@@ -1,0 +1,90 @@
+{% if sub != empty %}
+
+    {% assign product = sub %}
+
+    {%- form 'product', product, data-productid: product.id, class: 'ProductForm product__form-sub', data-form: dataSubForm -%}
+        {% include 'subscription-product' %}
+        <input type="hidden" name="id" value="{{ product.variants.first.id }}" />
+        {%- render 'product-data', product: product -%} 
+
+        <div class="product__form-inner active">
+            <div class="product__form-option active">
+                <div class="product__option__discount"></div>
+                <input type="radio" name="{{ dataSubForm }}" id="{{ dataSubForm }}-sub" checked="checked" value="{{ product.variants.first.id }}">
+                <label for="{{ dataSubForm }}-sub">
+                    {{ product.title | replace: "[sub]", "" }}
+                </label>
+            </div>
+            <div class="product__form-price">
+                {{ product.price | money }}
+                <s>{{ product.compare_at_price | money }}</s>
+            </div>
+        </div>
+    
+    {%- endform -%}
+
+
+{% endif %}
+
+{% if otp != empty %}
+
+    {% assign product = otp %}
+
+    <form id="add-item-form" action="/cart/add" method="post" data-form="{{ dataOTPForm }}" data-productid="null" class="product__form-otp">
+        <input type="hidden" name="id" value="{{ otp.variants.first.id }}" />
+        {%- render 'product-data', product: otp -%}
+
+        <div class="product__form-inner">
+            <div class="product__form-option product__form-option-otp">
+                <input type="radio" name="{{ dataSubForm }}" id="{{ dataSubForm }}-otp" value="{{ otp.variants.first.id }}">
+                <label for="{{ dataSubForm }}-otp">
+                    {{ otp.title | replace: "[otp]", "" }}
+                </label>
+            </div>
+
+            <div class="product__form-price">
+                {{ otp.price | money }}
+            </div>
+        
+            <div class="ProductForm__QuantitySelector" {{ block.shopify_attributes }}>
+                {%- if block.settings.show_label -%}
+                {%- endif -%}
+                <span class="ProductForm__Label">{{ 'product.form.quantity' | t }}:</span>
+            
+                <div class="QuantitySelector QuantitySelector--large">
+                    {%- assign quantity_minus_one = line_item.quantity | minus: 1 -%}
+            
+                    <button type="button" class="QuantitySelector__Button Link Link--secondary" data-action="decrease-quantity">{%
+                        render 'icon' with 'minus' %}</button>
+                    <input type="text" class="QuantitySelector__CurrentQuantity" pattern="[0-9]*" name="quantity" value="1"
+                        aria-label="{{ 'product.form.quantity' | t }}">
+                    <button type="button" class="QuantitySelector__Button Link Link--secondary" data-action="increase-quantity">{%
+                        render 'icon' with 'plus' %}</button>
+                </div>
+        
+                <span class="ProductForm__QuantitySelector-tagline">
+                    For 2 bottles
+                </span>
+            </div>
+
+        </div>
+
+    
+        <div class="product__guarantee">
+            
+            {% if section.settings.guarantee_link != blank %}            
+                <a href="{{ section.settings.guarantee_link }}">
+            {% endif %}
+
+            <img src="{{ 'guarantee.png' | asset_img_url }}" alt="">
+            {{ 'product.labels.guarantee' | t }}
+
+            {% if section.settings.guarantee_link != blank %}
+                </a>
+            {% endif %}
+        </div>
+    
+    </form>
+
+
+{% endif %}

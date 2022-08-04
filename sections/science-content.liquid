@@ -1,0 +1,60 @@
+
+<section class="about_product_main science_content">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="about_product_content">
+          <div class="about_product_head">
+            <h2>{{ section.settings.product_head }}</h2>
+           {{ section.settings.ab_content }}
+          </div>
+          <div class="about_product_head">
+            <h2>{{ section.settings.ab_head_2 }}</h2>
+           {{ section.settings.ab_content_2 }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Science Content",
+    "settings": [
+      { 
+        "type": "text",
+        "id": "product_head",
+        "label": " Product Heading"
+      },
+     { 
+        "type": "html",
+        "id": "ab_content",
+        "label": " Product Heading"
+      },
+       { 
+        "type": "text",
+        "id": "ab_head_2",
+        "label": " Heading"
+      },
+     { 
+        "type": "html",
+        "id": "ab_content_2",
+        "label": " Product Heading"
+      }
+  ],
+     "presets": [
+    {
+      "category": "Science Content",
+      "name": "Science Content",
+      "settings": {}
+    }
+  ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

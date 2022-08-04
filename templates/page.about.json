@@ -1,0 +1,101 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_large": false
+      }
+    },
+    "165933714192bb9f78": {
+      "type": "About-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about_page.jpg",
+        "heading": "About Us",
+        "content": "<p>JUVIA™ Digestive Balance Formula is a groundbreaking food supplement that works with your unique, individual gut flora. Rather than introducing new bacteria to your system, JUVIA works with your flora to help break down carbohydrates before they have a chance to cause problems in the gut.<\/p>\n\n<p>Based in the UK, JUVIA is part of Ateria Health Ltd, a science-backed health and wellness company. Our products help digestion by adding enzymes to the diet.<\/p>"
+      }
+    },
+    "16593377164772b7a2": {
+      "type": "About-intro",
+      "blocks": {
+        "3fb19e37-72af-4997-93d8-ceb3f7d52bd1": {
+          "type": "image",
+          "settings": {
+            "intro_image": "shopify:\/\/shop_images\/Mask_Group_98.jpg",
+            "heading_one": "Backed by cutting-edge science",
+            "Subheading_one": "JUVIA’s products are based on the <a href=\"https:\/\/juvia-live.myshopify.com\/pages\/the-science\">science<\/a> and research of Professor John Hunter and Dr Rosemary Waring, leading investigators of gut health and metabolic disorders, and co-founders of Ateria Health Ltd.",
+            "intro_image_two": "shopify:\/\/shop_images\/Mask_Group_117.jpg",
+            "heading_two": "Works with your gut",
+            "subheading_two": "Our research shows that lots of people with digestive issues (such as IBS) are still looking for a solution that works with their unique gut flora. This is because our gut flora is as unique and distinctive as we are. JUVIA is a supplement that works with your gut flora, instead of introducing new bacteria."
+          }
+        },
+        "01f84219-e896-456e-9f8d-a935ec17de0b": {
+          "type": "image",
+          "settings": {
+            "intro_image": "shopify:\/\/shop_images\/Mask_Group_118.jpg",
+            "heading_one": "Plant-based and sustainable",
+            "Subheading_one": "JUVIA’s main ingredient is ERME™, which is derived from sustainable barley, sourced from British farms. Our product is powered by plants and designed to work with your gut flora.",
+            "intro_image_two": "shopify:\/\/shop_images\/Mask_Group_119.jpg",
+            "heading_two": "Money back guarantee",
+            "subheading_two": "We’re so confident in JUVIA that we offer a <a href=\"\">21-day money back guarantee<\/a> on the first pack of our supplement you receive. We’re also proud to offer free UK shipping, and of course our packaging is recyclable."
+          }
+        }
+      },
+      "block_order": [
+        "3fb19e37-72af-4997-93d8-ceb3f7d52bd1",
+        "01f84219-e896-456e-9f8d-a935ec17de0b"
+      ],
+      "settings": {
+        "content": "Visit our <a href=\"\/blogs\/news\">blog <\/a>for the latest news, updates, tips and lifestyle recipes."
+      }
+    },
+    "1659338968728d0ee8": {
+      "type": "About-history",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Mask_Group_120.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/ourHistoryMobile.png",
+        "heading": "Our History",
+        "content": "<p>JUVIA was created as a result of decades of world-leading studies and scientific research projects carried out by our founders - Professor John Hunter and Dr Rosemary Waring. As leaders in the field of gut health, their expertise extends beyond the human microbiome and wellness through to the wellbeing and gut health of animals too.<\/p>\n          <p>Our history begins with lunch! Professor Hunter met with a leading equine veterinarian and former president of the British Equine Veterinary Association. He asked Professor Hunter to compare the guts of humans and horses, which led to the paper ‘Do Horses Suffer From IBS?’ in the Equine Veterinary Journal<sup>1<\/sup>.<\/p>\n          <p>From here, Professor Hunter was asked to study the veterinarian’s horses. It was at this point he linked up with Dr Waring, who suggested using the enzymes in malt to improve race horse performance. The race horse diet is high in carbohydrates, so Professor Hunter and Dr Waring’s work discovered a natural, enzyme-rich product that broke down these carbohydrates. The performance of the horses in the compound improved four-fold over three years.<\/p>\n          <p>Professor Hunter and Dr Waring’s research into gut wellness found that many people with digestive issues are still searching for a solution that can help them. This is because everyone’s gut flora is different. <\/p>\n          <p>It was soon discovered that the same active component that was being used in the treatment of the race horses - ERME™, derived from barley - could help humans too. Using ERME, JUVIA is designed to work with your gut flora, rather than introducing new bacteria.<\/p>",
+        "expert_main_head": "Meet the juvia experts",
+        "expert_image": "shopify:\/\/shop_images\/Mask_Group_123.jpg",
+        "expert_heading": "Professor John Hunter",
+        "expert_position": "Clinical Advisor & Founder",
+        "expert_content": "<p>Professor John Hunter was a Consultant Physician and Gastroenterologist at Addenbrooke’s Hospital, Cambridge, and visiting Professor of Medicine at the University of Cranfield. He is an industry...<\/p>\n<div class=\"moretext1\"><p>Professor John Hunter was a Consultant Physician and Gastroenterologist at Addenbrooke’s Hospital, Cambridge, and visiting Professor of Medicine at the University of Cranfield. He is an industry...<\/p><\/div>",
+        "expert_label": "Read more",
+        "expert_link": "#",
+        "expert_image_2": "shopify:\/\/shop_images\/Mask_Group_122.jpg",
+        "expert_heading_2": "Dr Rosemary Waring",
+        "expert_position_2": "Scientific Advisor & Founder",
+        "expert_content_2": "<p>Dr Rosemary Waring is a graduate of Cambridge University and subsequently completed her PhD in Biochemistry at the University of Birmingham where she is now honorary Reader in Human Toxicology. She is a Fellow of the Royal College of Pathologists. <\/p>\n<div class=\"moretext2\">\n<p>Dr Waring’s research is focused on the contribution of environmental factors to chronic ill health and on the interactions of gut flora with gastrointestinal function. Her research uses metabonomic and genomic techniques with in-depth analysis.<\/p>\n<p> Dr Waring has published over 230 research papers and has served as an independent toxicologist on European Union (EFSA) and UK Government panels (Advisory Committee on Pesticides and Committee on Carcinogenicity).<\/p>\n<\/div>",
+        "expert_label_2": "Read more",
+        "expert_link_2": "#",
+        "product_head": "ABOUT THE PRODUCT",
+        "ab_content": "<p>The main ingredient in JUVIA is ERME. It’s derived from barley and contains high levels of active enzymes involved in digesting and breaking down food. <\/p>\n<p>Malt has been used in cooking and food production for hundreds of years but the malt used in ERME is a special kind and quite different from that used in food, because of its active enzymes. Because it has been around for so long it’s known as GRAS (Generally Regarded As Safe).<\/p>",
+        "ab_head_2": "We’re committed to sustainability",
+        "ab_content_2": "<p>So you can celebrate your newfound free lifestyle with JUVIA and be assured you’ve played your part in protecting the planet.<\/p>",
+        "ab_head_3": "Sustainable packaging",
+        "ab_content_3": "<p>As well as our product being sustainably sourced, our bottles and packaging are recyclable. That includes our labels and our postal box.<\/p>\n\n<p>For more information on the product and how we work, take a look at our <a href=\"\/pages\/faqs\">FAQs<\/a>.<\/p>",
+        "ab_head_4": "Low carbon footprint",
+        "ab_content_4": "<p>ERME, Juvia’s active ingredient, is made with 100% sustainable barley grown in the UK and the farmers who supply our grain are working to reduce their carbon footprint in several ways. This includes using less carbon intensive fertiliser, and growing green manures and winter crops which help to build a healthier soil and support more biodiversity.<\/p><p>\nWe’re proud to be using a leading model for carbon reduction in the production and sustainability of our barley. The farms are audited by Red Tractor and meet the global sustainability standard set by the Sustainable Agriculture Initiative (SAI) through its Farm Sustainability Assessment (FSA).<\/p>",
+        "ab_head_5": "References",
+        "ab_content_5": "<b>Hunter JO<\/b> Do horses suffer from IBS? Equine Veterinary Journal  41 836-40 2009"
+      }
+    },
+    "1659345785f0877867": {
+      "type": "about-faq",
+      "settings": {
+        "heading": "Want to know more?",
+        "content": "<p>For more information on the product and how we work, take a look at our FAQs.<\/p>",
+        "button_label": "Go to FAQs",
+        "button_link": "#"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "165933714192bb9f78",
+    "16593377164772b7a2",
+    "1659338968728d0ee8",
+    "1659345785f0877867"
+  ]
+}

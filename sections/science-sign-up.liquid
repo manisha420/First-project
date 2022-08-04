@@ -1,0 +1,71 @@
+<section class="signup-banner science_sign_up">
+  <div class="signup-banner-img">
+   <img class="only_desktop_screen" src="{{section.settings.image |img_url:'master'}}" alt=""/> 
+    <img class="only_mobile_screen" src="{{section.settings.mobile_image |img_url:'master'}}" alt=""/> 
+  </div>
+  <div class="signup-banner-cont">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="signup-banner-content">
+            <h3>{{section.settings.heading}}</h3>
+            <p>{{section.settings.content}}</p>
+            <a href="#sign_up_form">{{section.settings.button_label}}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% schema %}
+  {
+    "name": "Science Sign Up",
+    "settings": [
+ { 
+      "type": "image_picker",
+      "id": "image",
+      "label": "Desktop Image" 
+  },
+      { 
+      "type": "image_picker",
+      "id": "mobile_image",
+      "label": "Mobile Image" 
+  },
+{ 
+      "type": "text",
+      "id": "heading",
+      "label": "heading",
+      "default": "heading"
+},
+{ 
+      "type": "text",
+      "id": "content",
+      "label": "Content"
+},
+{ 
+      "type": "text",
+      "id": "button_label",
+      "label": "Button label"
+},
+{ 
+      "type": "url",
+      "id": "button_link",
+      "label": "Button link"
+}
+
+],
+"presets": [
+    {
+      "category": "Science Sign Up",
+      "name": "Science Sign Up",
+      "settings": {}
+    }
+  ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

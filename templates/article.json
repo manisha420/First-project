@@ -1,0 +1,67 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "settings": {
+        "show_article_image": true,
+        "show_date": true,
+        "show_modified_date": true,
+        "show_category": false,
+        "show_author": true,
+        "show_share_buttons": false,
+        "show_prev_next": false
+      }
+    },
+    "shop-now": {
+      "type": "shop-now",
+      "disabled": true,
+      "blocks": {
+        "quote": {
+          "type": "quote",
+          "settings": {
+            "content": "<p>You can use this element to add a quote, content...<\/p>",
+            "author": ""
+          }
+        }
+      },
+      "block_order": [
+        "quote"
+      ],
+      "settings": {
+        "title": "Shop now",
+        "collection": "",
+        "grid_items_count": 6,
+        "show_product_info": true,
+        "show_vendor": false,
+        "show_color_swatch": false
+      }
+    },
+    "1659591001e9d468a0": {
+      "type": "custom-latest-article",
+      "blocks": {
+        "16595910014c7f6df5-0": {
+          "type": "blog",
+          "settings": {
+            "blog": "news"
+          }
+        }
+      },
+      "block_order": [
+        "16595910014c7f6df5-0"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Related Articles",
+        "show_category": false,
+        "show_tag": true,
+        "button_link": "",
+        "button_text": "View all articles"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "shop-now",
+    "1659591001e9d468a0"
+  ]
+}

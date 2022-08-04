@@ -1,0 +1,92 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_large": false
+      }
+    },
+    "16594159772d4814a3": {
+      "type": "About-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Mask_Group_126.jpg",
+        "heading": "The science behind JUVIA™",
+        "content": "<p>JUVIA was created to work with our individual gut flora to assist with digestion. It’s a liquid digestive supplement that you add to your daily routine, and it helps to break down carbohydrates before they get a chance to cause problems in your digestive system.<\/p>\n<p>In our research, we found that many people with IBS and similar digestive problems are still searching to find a solution that really works for them. Read on to find out more about the science behind JUVIA…<\/p>"
+      }
+    },
+    "16594161359484ea9d": {
+      "type": "science-content",
+      "settings": {
+        "product_head": "Backed by cutting-edge research",
+        "ab_content": "<p>JUVIA has been developed by leading gut health experts at Ateria Health Ltd, and is backed by years of research. Our founders - Professor John Hunter and Dr Rosemary Waring - are world-leading gut health experts, and developed JUVIA based on their work.<\/p>\n<p>Our product is based on decades of research into the gut health of both humans and animals, and is informed by findings from multiple studies.<\/p>\n<p>Find out more on our <a href=\"\/about\"> about page.<\/a><\/p>",
+        "ab_head_2": "How it works",
+        "ab_content_2": "<p>JUVIA consists of a range of enzymes (including amylases and glucanses if you want to get technical), which help to break down starch and plant materials. Digestive enzymes are vital in helping to break down food so your digestive system can absorb them<sup>1<\/sup>.<\/p>\n<p>These starches are broken down into glucose and other simple carbohydrates early on in your digestive process, and provide energy. This means that there’s much less starch in your lower gut for mal-fermentation and other digestive troubles.<\/p> \n<p>Unlike probiotic supplements, with JUVIA there’s no ‘alien’ or foreign bacteria introduced into your system.<\/p>"
+      }
+    },
+    "165941893151e908bd": {
+      "type": "science-content-with-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Mask_Group_127.jpg",
+        "product_head": "What is ERME™?",
+        "ab_content": "<p>ERME is our scientifically-backed ingredient. It’s known as an anabiomic - which is a term we use for any product that works to safely maintain a healthy microbiome.<\/p>\n<p>ERME is derived from UK-grown, sustainable barley. It contains natural enzymes that help with metabolising food and stop carbohydrates before they can cause problems in your gut.<\/p>"
+      }
+    },
+    "16594170653ef236c3": {
+      "type": "science-how-to-use",
+      "settings": {
+        "product_head": "How to use JUVIA",
+        "ab_content": "<p>JUVIA is a liquid digestive supplement. It can be eaten straight from the spoon, drizzled on yoghurt, blended into a smoothie or mixed with a cold drink, like orange juice.<\/p>\n<p>Do not mix with hot food or drinks, as heat will cause the enzyme to not work properly.<\/p>\n<p>JUVIA is not suitable for coeliacs or children under 5 years. For children aged 5-12, halve the recommended daily serving (below).<\/p>\n<p>Food supplements must not replace a varied diet and healthy lifestyle. Do not exceed the recommended daily serving.<\/p>\n<p>Once opened, store in the refrigerator.<\/p>",
+        "ab_head_2": "Rebalancing Phase (first six weeks)",
+        "ab_content_2": "<p>Take 1.5 tablespoons (22ml) twice a day, immediately before or after meals. For example, many people take 1.5 tbsp with their breakfast (perhaps drizzled onto fruit or stirred into a smoothie), and then 1.5tbsp with dinner (straight from the spoon or perhaps stirred into cold water).<\/p>\n<p>The Rebalancing Phase is particularly important for your JUVIA wellness journey because it will improve the digestion of your food and release more energy. This stage also helps to optimise the gut microbiome as it breaks down carbohydrates.<\/p>",
+        "ab_head_3": "Maintenance Phase (week seven onwards):",
+        "ab_content_3": "<p>After six weeks of consistently taking the supplement, try gradually reducing your JUVIA serving to one tablespoon (15ml) a day, immediately before or after your main meal.<\/p> \n<p>It’s important to remember that all of us are different, and some people may find that they’re more comfortable continuing with the Rebalancing Phase (1.5 tbsp twice a day).<\/p>\n<p>Find out more about JUVIA on our FAQs page. Or, try JUVIA today and choose the serving option that best suits your lifestyle.<\/p>",
+        "ab_head_5": "References",
+        "li_link": "https:\/\/www.webmd.com\/diet\/what-are-digestive-enzymes",
+        "ab_content_5": "https:\/\/www.webmd.com\/diet\/what-are-digestive-enzymes"
+      }
+    },
+    "1659420226555bcba8": {
+      "type": "science-sign-up",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/science-sign-up.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/bg.jpg",
+        "heading": "Are you a Healthcare Professional?",
+        "content": "Are you looking for more educational information and resources about JUVIA’s effect on the gut microbiome, how it works and our testing?",
+        "button_label": "Learn more here",
+        "button_link": "shopify:\/\/pages\/about"
+      }
+    },
+    "16594206233018a2ac": {
+      "type": "custom-latest-article",
+      "blocks": {
+        "1659420623e583a69a-0": {
+          "type": "blog",
+          "settings": {
+            "blog": "news"
+          }
+        }
+      },
+      "block_order": [
+        "1659420623e583a69a-0"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Related Articles",
+        "show_category": false,
+        "show_tag": true,
+        "button_link": "",
+        "button_text": "View all articles"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16594159772d4814a3",
+    "16594161359484ea9d",
+    "165941893151e908bd",
+    "16594170653ef236c3",
+    "1659420226555bcba8",
+    "16594206233018a2ac"
+  ]
+}

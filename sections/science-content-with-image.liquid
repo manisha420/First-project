@@ -1,0 +1,55 @@
+
+<section class="science_content_with_image">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="science_content_left">
+            <h2>{{ section.settings.product_head }}</h2>
+           {{ section.settings.ab_content }}
+        </div>
+      </div>
+        <div class="col-md-6">
+          <div class="science_image_right">
+          <img src="{{ section.settings.image | img_url:'master' }}" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Science Content Image",
+    "settings": [
+      { 
+        "type": "image_picker",
+        "id": "image",
+        "label": "Science Image"
+      },
+      { 
+        "type": "text",
+        "id": "product_head",
+        "label": " Product Heading"
+      },
+     { 
+        "type": "html",
+        "id": "ab_content",
+        "label": " Product Heading"
+      }
+  ],
+     "presets": [
+    {
+      "category": "Science Content Image",
+      "name": "Science Content Image",
+      "settings": {}
+    }
+  ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,84 @@
+<section class="signup-banner">
+  <div class="signup-banner-img">
+   <img src="{{section.settings.image |img_url:'master'}}" alt=""/> 
+  </div>
+  <div class="signup-banner-cont">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="signup-banner-content">
+            <h2>{{section.settings.heading}}</h2>
+            <img src="{{section.settings.red_image |img_url:'master'}}" alt=""/>
+            <h3>{{section.settings.subheading}}</h3>
+            <p>{{section.settings.content}}</p>
+            <p>{{section.settings.content_two}}</p>
+            <a href="#sign_up_form">{{section.settings.button_label}}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% schema %}
+  {
+    "name": "Sign Up",
+    "settings": [
+ { 
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image" 
+  },
+{ 
+      "type": "text",
+      "id": "heading",
+      "label": "heading",
+      "default": "heading"
+},
+{ 
+      "type": "image_picker",
+      "id": "red_image",
+      "label": "Image" 
+  },
+{ 
+      "type": "text",
+      "id": "subheading",
+      "label": "Sub-heading",
+      "default": "Sub-heading"
+},
+{ 
+      "type": "text",
+      "id": "content",
+      "label": "Content"
+},
+{ 
+      "type": "text",
+      "id": "content_two",
+      "label": "Content"
+},
+{ 
+      "type": "text",
+      "id": "button_label",
+      "label": "Button label"
+},
+{ 
+      "type": "url",
+      "id": "button_link",
+      "label": "Button link"
+}
+
+],
+"presets": [
+    {
+      "category": "Sign Up",
+      "name": "Sign Up",
+      "settings": {}
+    }
+  ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,112 @@
+<section id="introducing-juvia about_intro" class="introducing-part-main about_intro_custom">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="introducing-image-part">
+           {% for block in section.blocks %}  
+          <div class="introducing-image-section">
+            <div class="row">
+            <div class="col-md-6">
+              <div class="introducing-box-section">
+                <div class="introducing_img">
+              <img src="{{block.settings.intro_image | img_url:'master'}}" alt=""/>
+                </div>
+                <div class="introducing_content">
+                <h3>{{block.settings.heading_one}}</h3>
+                <p>{{block.settings.Subheading_one}}</p>
+                </div>
+              </div>
+              </div>
+            <div class="col-md-6">
+            <div class="introducing-box-section">
+              <div class="introducing_img">
+             <img src="{{block.settings.intro_image_two | img_url:'master'}}" alt=""/>
+              </div>
+              <div class="introducing_content">
+                <h3> {{block.settings.heading_two}}</h3>
+                <p>{{block.settings.subheading_two}}</p>
+              </div>
+              </div>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+        <p class="content_blogs">{{ section.settings.content  }}</p>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+{% schema %}
+  {
+    "name": "About Introducing",
+    "settings": [
+
+{ 
+      "type": "html",
+      "id": "content",
+      "label": "Content"
+}
+
+],
+ "blocks": [
+    {
+      "type": "image",
+      "name": "image",
+      "settings": [
+    { 
+      "type": "image_picker",
+      "id": "intro_image",
+      "label": "Intro Image" 
+  }, 
+{ 
+      "type": "text",
+      "id": "heading_one",
+      "label": "heading",
+      "default": "Sub-heading"
+},
+{ 
+      "type": "text",
+      "id": "Subheading_one",
+      "label": "Sub-heading",
+      "default": "Sub-heading"
+},
+  { 
+      "type": "image_picker",
+      "id": "intro_image_two",
+      "label": "Intro Image" 
+  },
+{ 
+      "type": "text",
+      "id": "heading_two",
+      "label": "heading",
+      "default": "Sub-heading"
+},
+{ 
+      "type": "text",
+      "id": "subheading_two",
+      "label": "Sub-heading",
+      "default": "Sub-heading"
+}
+ ]
+}
+],
+"presets": [
+    {
+      "category": "about introducing",
+      "name": "About introducing",
+      "settings": {}
+    }
+  ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
+

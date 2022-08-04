@@ -1,0 +1,76 @@
+<section class="cust_integrity_main">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="cust_integrity_img">
+          <img src="{{section.settings.image | img_url:"master"}}"/>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="cust_integrity_cont">
+          <h3>{{section.settings.heading}}</h3>
+         {{section.settings.content}}
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+<section class="about-last-main">
+  <div class="about-last-banner-desktop">
+  	<img src="https://cdn.shopify.com/s/files/1/0643/6467/5317/files/about-last.jpg?v=1656582584" alt=""/>
+  </div>
+  <div class="about-last-banner-mobile">
+  	<img src="https://cdn.shopify.com/s/files/1/0643/6467/5317/files/bg.jpg?v=1656582021" alt=""/>
+  </div>
+  <div class="about-last-cont">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+		 <h3>Lorem ipsum dolor amet</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis efficitur ex viverra sollicitudin. Maecenas blandit est at mi varius congue. Donec sed sodales mauris.</p>
+          <a href="">Cta here</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Image Text",
+    "settings": [
+    { 
+          "type": "text",
+          "id": "heading",
+          "label": "heading",
+          "default": "heading"
+    },
+     { 
+          "type": "richtext",
+          "id": "content",
+          "label": "content"
+      
+    },
+    { 
+      "type": "image_picker",
+      "id": "image",
+      "label": "Intro Image" 
+  }
+
+
+],
+ "presets": [
+    {
+      "category": "Image Text",
+      "name": "Image Text",
+      "settings": {}
+    }
+  ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

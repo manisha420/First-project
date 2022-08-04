@@ -1,0 +1,300 @@
+<script>
+  $(document).ready(function(){
+  $('.moreless-button1').click(function() {
+  $('.moretext1').slideToggle();
+  if ($('.moreless-button1').text() == "Read more") {
+    $(this).text("Read less")
+    $(this).removeClass("intro")
+    $(this).addClass("intro-less")
+   
+  } else {
+    $(this).text("Read more")
+     $(this).removeClass("intro-less")
+      $(this).addClass("intro")
+  }
+});
+     $('.moreless-button2').click(function() {
+  $('.moretext2').slideToggle();
+  if ($('.moreless-button2').text() == "Read more") {
+    $(this).text("Read less")
+    $(this).removeClass("intro")
+    $(this).addClass("intro-less")
+  } else {
+    $(this).text("Read more")
+    $(this).removeClass("intro-less")
+      $(this).addClass("intro")
+  }
+});
+    });
+</script>
+
+<style>.moretext1 { display: none;}
+.moretext2{  display: none;}
+</style>
+<section class="history_main">
+  <div class="history_main_img">
+    <img class="desktop_screen" src="{{ section.settings.image | img_url:'master' }}" />
+    <img class="mobile_screen" src="{{ section.settings.mobile_image | img_url:'master' }}" />
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="our_history_cont">
+          <h2>{{ section.settings.heading }}</h2>
+        {{ section.settings.content }} 
+        </div>
+      </div>
+      <div class="col-md-6"></div>
+    </div>
+  </div>
+</section>
+
+<section class="juvia_expert_main">
+  <div class="container">
+    <div class="row">
+      <div class="expert_sec_head">
+        <h2>{{section.settings.expert_main_head }}</h2>
+      </div>
+      <div class="col-md-6">
+        <div class="expert_section">
+          <div class="expert_section_img">
+            <img src="{{ section.settings.expert_image |img_url:'master' }}" />
+          </div>
+          <div class="expert_section_cont show-1">
+            <h3 class="expert_name">{{section.settings.expert_heading}}</h3>
+            <h4 class="expert_desig">{{section.settings.expert_position  }}</h4>
+            <p>{{section.settings.expert_content }}</p>
+            <a class="moreless-button1 intro">{{section.settings.expert_label}}</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="expert_section">
+          <div class="expert_section_img">
+            <img src="{{ section.settings.expert_image_2 |img_url:'master' }}" />
+          </div>
+          <div class="expert_section_cont">
+            <h3 class="expert_name">{{section.settings.expert_heading_2}}</h3>
+            <h4 class="expert_desig">{{section.settings.expert_position_2}}</h4>
+            {{section.settings.expert_content_2}}
+            <a class="moreless-button2 intro ">{{section.settings.expert_label_2}}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="about_product_main">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="about_product_content">
+          <div class="about_product_head">
+            <h2>{{ section.settings.product_head }}</h2>
+           {{ section.settings.ab_content }}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="product_sustainble_main">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="product_sustainble">
+          <h3 class="cust_about_product_subh">{{ section.settings.ab_head_2 }}</h3>
+        {{ section.settings.ab_content_2 }}
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="product_sustainble">
+          <h3 class="cust_about_product_subh">{{ section.settings.ab_head_3 }}</h3>
+         {{ section.settings.ab_content_3 }}
+        </div>
+      </div>
+    </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-md-12">
+       <div class="about_product_content">
+         <div class="about_product_head">
+            <h3 class="cust_about_product_subh">{{ section.settings.ab_head_4 }}</h3>
+           {{ section.settings.ab_content_4 }}
+         </div>
+         <div class="about_product_refrence">
+           <h4>{{ section.settings.ab_head_5}}</h4>
+           <ol class="refrence_list">
+             <li>{{ section.settings.ab_content_5 }}</li>
+           </ol>
+         </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "About History",
+    "settings": [
+      { 
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image Desktop"
+      },
+       { 
+        "type": "image_picker",
+        "id": "mobile_image",
+        "label": "Image Mobile"
+      },
+      { 
+        "type": "text",
+        "id": "heading",
+        "label": "heading",
+        "default": "heading"
+      },
+      { 
+        "type": "html",
+        "id": "content",
+        "label": "content"
+      },
+      { 
+        "type": "header",
+        "content": "Meet juvia expert"
+      },
+     { 
+        "type": "text",
+        "id": "expert_main_head",
+        "label": " Expert heading"
+      },
+       { 
+        "type": "image_picker",
+        "id": "expert_image",
+        "label": " Expert Image"
+      },
+    { 
+        "type": "text",
+        "id": "expert_heading",
+        "label": " Expert heading"
+      },
+    { 
+        "type": "text",
+        "id": "expert_position",
+        "label": " Expert Position"
+      },
+    { 
+        "type": "html",
+        "id": "expert_content",
+        "label": " Expert content"
+      },
+    { 
+        "type": "text",
+        "id": "expert_label",
+        "label": " Read more"
+      },
+        { 
+        "type": "url",
+        "id": "expert_link",
+        "label": " Read more Link"
+      },
+       { 
+        "type": "image_picker",
+        "id": "expert_image_2",
+        "label": " Expert Image"
+      },
+    { 
+        "type": "text",
+        "id": "expert_heading_2",
+        "label": " Expert heading"
+      },
+    { 
+        "type": "text",
+        "id": "expert_position_2",
+        "label": " Expert Position"
+      },
+    { 
+        "type": "html",
+        "id": "expert_content_2",
+        "label": " Expert content"
+      },
+    { 
+        "type": "text",
+        "id": "expert_label_2",
+        "label": " Read more"
+      },
+        { 
+        "type": "url",
+        "id": "expert_link_2",
+        "label": " Read more Link"
+      },
+       { 
+        "type": "header",
+        "content": "About THE PRODUCT"
+      },
+      { 
+        "type": "text",
+        "id": "product_head",
+        "label": " Product Heading"
+      },
+     { 
+        "type": "html",
+        "id": "ab_content",
+        "label": " Product Heading"
+      },
+       { 
+        "type": "text",
+        "id": "ab_head_2",
+        "label": " Heading"
+      },
+     { 
+        "type": "html",
+        "id": "ab_content_2",
+        "label": " Product Heading"
+      },
+      { 
+        "type": "text",
+        "id": "ab_head_3",
+        "label": " Heading"
+      },
+        { 
+        "type": "html",
+        "id": "ab_content_3",
+        "label": " Product Heading"
+      },
+       { 
+        "type": "text",
+        "id": "ab_head_4",
+        "label": " Heading"
+      },
+     { 
+        "type": "html",
+        "id": "ab_content_4",
+        "label": " Product Heading"
+      },
+      { 
+        "type": "text",
+        "id": "ab_head_5",
+        "label": " Heading"
+      },
+      { 
+        "type": "text",
+        "id": "ab_content_5",
+        "label": " Heading"
+      }
+  ],
+     "presets": [
+    {
+      "category": "About History",
+      "name": "About History",
+      "settings": {}
+    }
+  ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

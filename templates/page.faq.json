@@ -1,0 +1,600 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-faq",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "165943360395fe2c4e": {
+      "type": "faqs",
+      "disabled": true,
+      "blocks": {
+        "5ce52a48-88ef-4f9a-8213-e51da29deca3": {
+          "type": "product",
+          "settings": {
+            "question": "What does JUVIA do?",
+            "answer": "<p>Our research shows that many people with digestive issues like IBS are still searching for a solution that really works for them.<\/p><p> This is because our gut flora is as unique and distinctive as we are. JUVIA is a supplement that works with your gut flora, instead of introducing new bacteria. It helps break down carbohydrates before they can cause problems in your gut.<\/p>"
+          }
+        },
+        "92345bd3-f5fc-441e-822d-f5c457d55352": {
+          "type": "product",
+          "settings": {
+            "question": "What is ERME?",
+            "answer": "<p>JUVIA contains our unique natural plant-based ingredient ERME™, which is made from barley.  It’s uniquely formulated to activate the natural digestive enzymes in the grain, which help break down carbohydrates before they can cause problems. <\/p>"
+          }
+        },
+        "178e341c-7314-4a7c-a04e-e9b831170840": {
+          "type": "product",
+          "settings": {
+            "question": "What health claims can JUVIA make?",
+            "answer": "<p>As a food supplement, JUVIA cannot make health claims.<\/p>\n<p>Customers who have used JUVIA have found that it helps improve their gut function and allows them to live a more confident and happy life.<\/p>"
+          }
+        },
+        "77913dfc-09a9-4be7-a308-bbbb5a3651a9": {
+          "type": "product",
+          "settings": {
+            "question": "What does JUVIA taste like?",
+            "answer": "<p>JUVIA is a liquid food supplement that is packaged in 450ml bottles. It’s, similar in texture and taste to runny honey and can be poured straight from the bottle. It’s rather sweet, so we do recommend mixing it with some water, juice or any other cold drink.<\/p>"
+          }
+        },
+        "8868314c-0d9a-4ee8-ba23-a66c63a25f38": {
+          "type": "product",
+          "settings": {
+            "question": "How do I take JUVIA?",
+            "answer": "<p>There are a number of ways to add JUVIA to your daily routine and lifestyle. You can take JUVIA simply on its own from a tablespoon. Alternatively, you can mix the liquid into some water or a cold drink. You can also try adding your daily JUVIA to cereal, a salad, smoothie or with any other cold food.<\/p>\n<p>Do not mix JUVIA with hot drinks or food. The enzymes in the product will stop working if the product is heated.<\/p>"
+          }
+        },
+        "4d615649-f4f8-436f-8a83-3dacfaf27c4d": {
+          "type": "product",
+          "settings": {
+            "question": "How much JUVIA do I take?",
+            "answer": "<p>There are two phases to your JUVIA journey.<\/p>\n<b>Rebalancing Phase (first 6 weeks of use):<\/b>\n<p>Take 1.5 tablespoons (1.5 x 15ml) twice a day immediately, before or after meals. For example, 1.5 tablespoons with breakfast and 1.5 tablespoons with dinner.<\/p>\n<b>Maintenance Phase (Week 7+):<\/b>\n<p>Gradually try reducing to 1 tablespoon (15ml) a day immediately before or after your main meal.<\/p>\n<p>Please note that your gut flora is as unique as you are. All of us are different and some people may find that they’re more comfortable continuing with the Rebalancing Phase even after week 6, so it’s OK to continue taking 1.5 x 15ml per day if needed.<\/p>"
+          }
+        },
+        "5d2fa5a4-e192-4e23-863c-29401f44d0b1": {
+          "type": "product",
+          "settings": {
+            "question": "What is Rebalancing Phase?",
+            "answer": "<p>The Rebalancing Phase is the first 6 weeks of taking JUVIA. This is where your digestive system gets used to the product. During this Phase, you take 1.5 tablespoons twice per day (e.g. at breakfast and dinner). You can then gradually reduce how much you take to 1 tbsp from week 7 - this is known as the Maintenance Phase.<\/p><p>\nBecause everyone is different, you may choose to continue taking the Rebalancing Phase amount of JUVIA after week 6.<\/p>"
+          }
+        },
+        "8a5a6f4e-3a39-402b-908a-b7e7562b9f0c": {
+          "type": "product",
+          "settings": {
+            "question": "When might I start to see a difference from taking JUVIA?",
+            "answer": "<p>   The Rebalancing Phase of taking JUVIA typically <\/p><p>lasts 6 weeks, but some people notice a difference in how they feel in as little as 2 days. It’s important to note that everyone is different, and the time it takes can vary.<\/p>"
+          }
+        },
+        "6003af30-3e82-44a7-9228-9f2f2f6f643f": {
+          "type": "product",
+          "settings": {
+            "question": "I’ve been taking JUVIA for a week and I feel worse, what do I do?",
+            "answer": "<p>  There’s often a period of detox after you start to take JUVIA, so it’s completely normal to feel a little worse at first. Carry on with your routine and you’ll start to see improvements in a short amount of time.<\/p>"
+          }
+        },
+        "ba83eb27-028a-4f2b-baf4-cedf8eb6f4fc": {
+          "type": "product",
+          "settings": {
+            "question": "Is JUVIA suitable for children?",
+            "answer": "<p> JUVIA is not suitable for children under 5 years old. Children aged 5-12 should take half the recommended adult serving - 11ml twice a day in the Rebalancing Phase, and 7.5ml once per day during the Maintenance Phase.<\/p>"
+          }
+        },
+        "d745dd1b-6ca0-4f37-9653-1809a0d9599c": {
+          "type": "product",
+          "settings": {
+            "question": "Is JUVIA gluten-free?",
+            "answer": "<p>JUVIA is derived from barley grain which contains gluten. Therefore it is not suitable for people with coeliac disease or a gluten allergy. For people with gluten intolerance JUVIA might be tolerated and can even help, but each person is different so we would recommend consulting your doctor before usage.<\/p>"
+          }
+        },
+        "64522089-d59c-465b-afaf-85e73e3a9ce4": {
+          "type": "product",
+          "settings": {
+            "question": "Are there side effects when taking JUVIA?",
+            "answer": "<p>Most people who try JUVIA feel positive effects within a matter of days or weeks. But everyone is different, so please be patient with your body.<\/p>\n<p>\nSome people experience a detox effect during the first two or three days days of taking JUVIA. This may last for a few days and could include headaches, fogginess and sometimes a little bowel discomfort. This is completely normal so it’s nothing to worry about.<\/p><p>\nIt is recommended not to start taking the product just before the start of menstruation, so you can start it afterwards and your gut bacteria should have stabilised after a month, in time for your next cycle.<\/p>"
+          }
+        },
+        "1a03be96-9f69-4b73-bbcc-b0232772ecfa": {
+          "type": "product",
+          "settings": {
+            "question": "Is JUVIA a medicine?",
+            "answer": "<p>No, JUVIA is a food supplement.<\/p>"
+          }
+        },
+        "98a92f66-912b-4e7e-9727-ee6fe1aa03ec": {
+          "type": "product",
+          "settings": {
+            "question": "Can I take JUVIA alongside any other medications?",
+            "answer": "<p>JUVIA is a food supplement and is safe to take alongside most medications, but we recommend you check with your doctor before consuming anything new or adding anything to your diet. If you are on medication, make sure to check with your doctor before starting your JUVIA routine.<\/p>"
+          }
+        },
+        "e10d3fe2-4255-48d8-a060-6acc9b909fb6": {
+          "type": "product",
+          "settings": {
+            "question": "How sustainable is JUVIA?",
+            "answer": "<p>JUVIA is derived from 100% sustainable barley, grown in the UK and made using renewable energy. JUVIA packaging is also recyclable. We’re committed to sustainability through our supply chain and are constantly looking for ways to reduce our impact on the environment.<\/p>"
+          }
+        },
+        "227005ab-4c26-4823-b1f4-abd958844ce1": {
+          "type": "product",
+          "settings": {
+            "question": "Why is the microbiome important?",
+            "answer": "<p>The gut microbiome is really important for your overall health - it’s vital in controlling digestion and helping your immune system. Your microbiome is made up of many trillions of bacteria and microbes. An unhealthy microbiome can lead to a number of health issues, including high cholesterol, raised blood sugar and weight gain. Having a healthy microbiome can help with brain health, digestive health and more. <\/p>"
+          }
+        },
+        "65f89c3a-96c0-4e8a-9707-45d03792f169": {
+          "type": "the-app",
+          "settings": {
+            "the_app_question": "How do I download the JUVIA app?",
+            "the_app_answer": "<p>The JUVIA app is available across Android and iOS devices. To download it, search ‘JUVIA’  in the Google Play Store or Apple App Store.<\/p>"
+          }
+        },
+        "49a2c950-5576-4ae1-9e8f-223b599baf9e": {
+          "type": "the-app",
+          "settings": {
+            "the_app_question": "Is the JUVIA app free to download?",
+            "the_app_answer": "<p>Yes, the JUVIA app is completely free to download and use.<\/p>"
+          }
+        },
+        "93098ee9-8fb3-423d-9e63-e36c65a151e2": {
+          "type": "the-app",
+          "settings": {
+            "the_app_question": "What does the JUVIA app do?",
+            "the_app_answer": "<p>Our app has been created to support you in three main ways:<\/p>\n<p>1. Easy subscription handling. View and change your JUVIA subscription quickly and easily. You can use the app to pause, cancel, resume, skip and edit your details.<\/p>\n<p>2. Track your progress. With the inbuilt tracker calendar, the app will help you look back over the time you’ve been taking JUVIA to see if you're feeling any different\/better.<\/p>\n<p>3. Reminders to take JUVIA. You choose when you want to take the supplement, and then set the notification times to suit your daily routine.<\/p>\n<p>The app also lets you make a one-off purchase of JUVIA if you prefer to not subscribe. You’ll also be able to read all of our blog content whenever you want, so you can read more about health and wellbeing.<\/p>"
+          }
+        },
+        "27724fa2-8ee6-436a-b192-631bd4de2a91": {
+          "type": "the-app",
+          "settings": {
+            "the_app_question": "Do I have to use the JUVIA app?",
+            "the_app_answer": "<p>No, using our app is completely up to you. It’s designed to help with taking JUVIA and tracking your progress but if you prefer not to use the app that’s fine.<\/p>"
+          }
+        },
+        "e79cb83b-df92-4338-84c2-b03c667e1b0a": {
+          "type": "the-app",
+          "settings": {
+            "the_app_question": "What happens to my data?",
+            "the_app_answer": "<p>JUVIA app customer data is stored on Shopify, which is our website platform. Customers can delete their account on the app and it will then prompt their account and relevant data to be deleted on Shopify. More on Shopify's GDPR policy can be read here:<\/p>\nhttps:\/\/www.shopify.com\/legal\/dpa\n<p>Read our full <a href=\"#\">JUVIA Privacy Policy <\/a>for more details.<\/p>"
+          }
+        },
+        "3d9d6aa6-ca4d-4204-a4c3-dd871bc5f656": {
+          "type": "delivery",
+          "settings": {
+            "delivery_question": "Where can I buy JUVIA?",
+            "delivery_answer": "<p> JUVIA is currently only available here at <a href=\"\/pages\/home\">www.juvia.me<\/a>Learn more about the product.<\/p>"
+          }
+        },
+        "d79e0d9e-fd46-4368-8e07-53fa275d7da3": {
+          "type": "delivery",
+          "settings": {
+            "delivery_question": "How much does JUVIA delivery cost?",
+            "delivery_answer": "<p>Delivery is free across the UK.<\/p>"
+          }
+        },
+        "f2b1f67b-fa47-428e-b21e-65b86f3cde60": {
+          "type": "delivery",
+          "settings": {
+            "delivery_question": "How can I pay for JUVIA?",
+            "delivery_answer": "<p>The payment methods we currently accept include credit cards, PayPal and Apple Pay.<\/p>"
+          }
+        },
+        "e7684e5b-8c44-4e27-acdf-aa4dd8d10e5b": {
+          "type": "delivery",
+          "settings": {
+            "delivery_question": "Where do you deliver to?",
+            "delivery_answer": "<p>At the moment we deliver across the UK.<\/p>"
+          }
+        },
+        "0bd5f771-6de8-4c32-8b4c-6f93f76e3832": {
+          "type": "delivery",
+          "settings": {
+            "delivery_question": "What is your returns policy?",
+            "delivery_answer": "<p>We offer a 21-day money-back guarantee on your first pack of JUVIA if you decide the product isn’t for you. Otherwise, we have a 14-day return policy on unopened boxes of JUVIA.<\/p>\n<p>Generally, we can only accept returns of unopened boxes of JUVIA - once the tamper seal on the shipper box has been broken we can’t accept the return for safety reasons.<\/p>\n<p>To be eligible for the money-back guarantee, you must contact us within 21 days of receiving your order. If you’d like to discuss returning your order, please send an email with your name and order number to <a href=\"#\">returns@juvia.me<\/a>.<\/p>"
+          }
+        },
+        "95f5f2bc-0f66-47b8-bafb-38149abcb898": {
+          "type": "delivery",
+          "settings": {
+            "delivery_question": "How does the money-back guarantee work?",
+            "delivery_answer": "<p>We offer a full money-back guarantee if you decide JUVIA is not for you. To be eligible, you must contact us within 21 days of your first purchase of JUVIA.<\/p>\n<p>The guarantee is only eligible on the first pack. If you order 2 packs (4 bottles) and open both boxes, the guarantee only applies to the cost of the first pack. The other pack would need to be returned in the normal way and we only accept back sealed packs.<\/p>\n\n<p>To get in touch about the money-back guarantee, please contact us at returns@juvia.me providing your order number, name and the reason JUVIA isn’t right for you. Our team will explain how to return the product to us for free and we’ll issue your refund in full via the payment method you used for the original purchase.<\/p>\n\n<p>Money-back guarantee terms and conditions: You must contact us within the first 21 days of placing your order. It must be your first purchase. The guarantee is redeemable only once per household.<\/p>\n\n<p>If you purchased multiple boxes (each box contains 2 x 450ml bottles), this guarantee only applies to one box. Any unopened boxes can be returned using our normal returns procedure.<\/p>\n<p>If you are a subscriber and your second box has already been delivered, this can be returned (provided it is un-opened) using our general returns policy.<\/p>\n<p>This guarantee does not affect your statutory rights.<\/p>"
+          }
+        },
+        "9df7de03-6790-4314-9dcf-1c92a8f90925": {
+          "type": "delivery",
+          "settings": {
+            "delivery_question": "I’ve placed an order and have changed my mind, can I cancel?",
+            "delivery_answer": "<p>Contact us at <a href=\"\/pages\/contact\">help@juvia.com<\/a> as soon as possible with the change you’d like to make. While we can’t guarantee we’ll be able to make any changes, if you contact us within an hour of placing your order we may have time to change it before it goes out for delivery.<\/p>"
+          }
+        },
+        "c065349e-095a-49a7-b820-6c5fa87b83d9": {
+          "type": "delivery",
+          "settings": {
+            "delivery_question": "Do you have quality control in place?",
+            "delivery_answer": "<p>Contact us at <a href=\"\/pages\/contact\">help@juvia.com <\/a>as soon as possible with the change you’d like to make. While we can’t guarantee we’ll be able to make any changes, if you contact us within an hour of placing your order we may have time to change it before it goes out for delivery.<\/p>"
+          }
+        },
+        "9f93b900-d81b-4c28-8fe1-06621e21794e": {
+          "type": "delivery",
+          "settings": {
+            "delivery_question": "Do you have quality control in place?",
+            "delivery_answer": "<p>All JUVIA products are made and packed to BRC standards.<\/p>"
+          }
+        },
+        "0afb23e4-0f9a-4b38-8dd2-1aa886a1fd0e": {
+          "type": "delivery",
+          "settings": {
+            "delivery_question": "Is your packaging recyclable?",
+            "delivery_answer": "<p>Yes, JUVIA packaging is recyclable and we’re committed to sustainability across our production and beyond. Our bottles are made from PET and contain recycled material. Our labels and postal box are also recyclable and printed with water-based inks. Our active ingredient ERME™ is derived from sustainable barley grown in the UK.<\/p>\n<p>You can learn more about our sustainability commitments on our <a href=\"\/pages\/about\">About Us<\/a> page.<\/p>"
+          }
+        },
+        "da1fea22-9da3-4a7e-86fe-c491db9cb118": {
+          "type": "delivery",
+          "settings": {
+            "delivery_question": "My JUVIA has arrived with a frothy layer on it where it has settled in transit. Is this right?",
+            "delivery_answer": "<p>Sometimes when the product has been moved around in transit it can settle with a frothy layer on top. This is nothing to worry about and is completely normal - just give the bottle a bit of a shake (just make sure it’s closed first!).<\/p>"
+          }
+        },
+        "26f5435c-ec57-4cb4-9772-7dcc8a211d29": {
+          "type": "subscription",
+          "settings": {
+            "subscription_question": "Why do I need a JUVIA subscription?",
+            "subscription_answer": "<p>A subscription means you don’t need to worry about running out of JUVIA or having to set manual reminders to order more. It’s also a cheaper option - you save 20%! Our subscription packages can be managed via your account page, our app or by getting in touch with us, to make your life easier. <\/p>"
+          }
+        },
+        "e059a3ad-9a8e-4608-9ccf-a524c7b035d7": {
+          "type": "subscription",
+          "settings": {
+            "subscription_question": "Can I cancel my subscription?",
+            "subscription_answer": "<p>You can cancel your JUVIA subscription at any time via the website or directly in your app. \nWith the app, <\/p><p>you will receive notifications when the next payment is going to be taken and your subscription is due to renew. From here, you can easily pause, skip, cancel, or resume your subscription as it suits your lifestyle. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "5ce52a48-88ef-4f9a-8213-e51da29deca3",
+        "92345bd3-f5fc-441e-822d-f5c457d55352",
+        "178e341c-7314-4a7c-a04e-e9b831170840",
+        "77913dfc-09a9-4be7-a308-bbbb5a3651a9",
+        "8868314c-0d9a-4ee8-ba23-a66c63a25f38",
+        "4d615649-f4f8-436f-8a83-3dacfaf27c4d",
+        "5d2fa5a4-e192-4e23-863c-29401f44d0b1",
+        "8a5a6f4e-3a39-402b-908a-b7e7562b9f0c",
+        "6003af30-3e82-44a7-9228-9f2f2f6f643f",
+        "ba83eb27-028a-4f2b-baf4-cedf8eb6f4fc",
+        "d745dd1b-6ca0-4f37-9653-1809a0d9599c",
+        "64522089-d59c-465b-afaf-85e73e3a9ce4",
+        "1a03be96-9f69-4b73-bbcc-b0232772ecfa",
+        "98a92f66-912b-4e7e-9727-ee6fe1aa03ec",
+        "e10d3fe2-4255-48d8-a060-6acc9b909fb6",
+        "227005ab-4c26-4823-b1f4-abd958844ce1",
+        "65f89c3a-96c0-4e8a-9707-45d03792f169",
+        "49a2c950-5576-4ae1-9e8f-223b599baf9e",
+        "93098ee9-8fb3-423d-9e63-e36c65a151e2",
+        "27724fa2-8ee6-436a-b192-631bd4de2a91",
+        "e79cb83b-df92-4338-84c2-b03c667e1b0a",
+        "3d9d6aa6-ca4d-4204-a4c3-dd871bc5f656",
+        "d79e0d9e-fd46-4368-8e07-53fa275d7da3",
+        "f2b1f67b-fa47-428e-b21e-65b86f3cde60",
+        "e7684e5b-8c44-4e27-acdf-aa4dd8d10e5b",
+        "0bd5f771-6de8-4c32-8b4c-6f93f76e3832",
+        "95f5f2bc-0f66-47b8-bafb-38149abcb898",
+        "9df7de03-6790-4314-9dcf-1c92a8f90925",
+        "c065349e-095a-49a7-b820-6c5fa87b83d9",
+        "9f93b900-d81b-4c28-8fe1-06621e21794e",
+        "0afb23e4-0f9a-4b38-8dd2-1aa886a1fd0e",
+        "da1fea22-9da3-4a7e-86fe-c491db9cb118",
+        "26f5435c-ec57-4cb4-9772-7dcc8a211d29",
+        "e059a3ad-9a8e-4608-9ccf-a524c7b035d7"
+      ],
+      "settings": {
+        "title": "JUVIA™ - FAQs",
+        "content": "Everything you need to know about JUVIA and our products. Learn more about our digestive balance formula and how it can help you start your journey towards a more balanced lifestyle.",
+        "product": "Product",
+        "the_app": "The app",
+        "delivery": "Delivery",
+        "subscription": "Subscriptions",
+        "first_question": "What is JUVIA?",
+        "first_answer": "<p><a href=\"\">JUVIA<\/a> is a groundbreaking digestive balance formula, powered by plants and activated by ERME™. The food supplement works with your gut flora, instead of introducing new bacteria. The product has been developed with experts in gut health, using cutting-edge research - <a href=\"\/pages\/the-science\">read more about the science <\/a>behind JUVIA.<\/p>"
+      }
+    },
+    "16595092349925d440": {
+      "type": "new-faqs",
+      "blocks": {
+        "ee7b74ae-b679-4fbd-af4e-3144a0f55d77": {
+          "type": "product",
+          "settings": {
+            "question": "What is JUVIA?",
+            "answer": "<p><a href=\"\">JUVIA<\/a> is a groundbreaking digestive balance formula, powered by plants and activated by ERME™. The food supplement works with your gut flora, instead of introducing new bacteria. The product has been developed with experts in gut health, using cutting-edge research - <a href=\"\">read more about the science<\/a> behind JUVIA.<\/p>"
+          }
+        },
+        "48248575-fd8a-4d1a-8ee9-5120e1fce3d2": {
+          "type": "product",
+          "settings": {
+            "question": "What does JUVIA do?",
+            "answer": "<p>Our research shows that many people with digestive issues like IBS are still searching for a solution that really works for them.<\/p><p> This is because our gut flora is as unique and distinctive as we are. JUVIA is a supplement that works with your gut flora, instead of introducing new bacteria. It helps break down carbohydrates before they can cause problems in your gut.<\/p>"
+          }
+        },
+        "3402e61f-9c0f-4b91-bd95-52639d159a1a": {
+          "type": "product",
+          "settings": {
+            "question": "What is ERME?",
+            "answer": "<p>JUVIA contains our unique natural plant-based ingredient ERME™, which is made from barley.  It’s uniquely formulated to activate the natural digestive enzymes in the grain, which help break down carbohydrates before they can cause problems. <\/p>"
+          }
+        },
+        "236ed43b-35e7-48e1-91fd-70533897e0d8": {
+          "type": "product",
+          "settings": {
+            "question": "What health claims can JUVIA make?",
+            "answer": "<p>As a food supplement, JUVIA cannot make health claims.<\/p>\n<p>Customers who have used JUVIA have found that it helps improve their gut function and allows them to live a more confident and happy life.<\/p>"
+          }
+        },
+        "67c2663d-fdd6-435c-9a95-462064957b6e": {
+          "type": "product",
+          "settings": {
+            "question": "What does JUVIA taste like?",
+            "answer": "<p>JUVIA is a liquid food supplement that is packaged in 450ml bottles. It’s, similar in texture and taste to runny honey and can be poured straight from the bottle. It’s rather sweet, so we do recommend mixing it with some water, juice or any other cold drink.<\/p>"
+          }
+        },
+        "a47aecdd-bd3f-4bfd-9cea-e9588df1c445": {
+          "type": "product",
+          "settings": {
+            "question": "How do I take JUVIA?",
+            "answer": "<p>There are a number of ways to add JUVIA to your daily routine and lifestyle. You can take JUVIA simply on its own from a tablespoon. Alternatively, you can mix the liquid into some water or a cold drink. You can also try adding your daily JUVIA to cereal, a salad, smoothie or with any other cold food.<\/p>\n<p>Do not mix JUVIA with hot drinks or food. The enzymes in the product will stop working if the product is heated.<\/p>"
+          }
+        },
+        "12e0e6ad-a1a8-4978-8595-bcaae6a7f626": {
+          "type": "product",
+          "settings": {
+            "question": "How much JUVIA do I take?",
+            "answer": "<p>There are two phases to your JUVIA journey.<\/p>\n<b>Rebalancing Phase (first 6 weeks of use):<\/b>\n<p>Take 1.5 tablespoons (1.5 x 15ml) twice a day immediately, before or after meals. For example, 1.5 tablespoons with breakfast and 1.5 tablespoons with dinner.<\/p>\n<b>Maintenance Phase (Week 7+):<\/b>\n<p>Gradually try reducing to 1 tablespoon (15ml) a day immediately before or after your main meal.<\/p>\n<p>Please note that your gut flora is as unique as you are. All of us are different and some people may find that they’re more comfortable continuing with the Rebalancing Phase even after week 6, so it’s OK to continue taking 1.5 x 15ml per day if needed.<\/p>"
+          }
+        },
+        "1424d058-31bd-4329-80f8-a66f5e766bc1": {
+          "type": "product",
+          "settings": {
+            "question": "What is Rebalancing Phase?",
+            "answer": "<p>The Rebalancing Phase is the first 6 weeks of taking JUVIA. This is where your digestive system gets used to the product. During this Phase, you take 1.5 tablespoons twice per day (e.g. at breakfast and dinner). You can then gradually reduce how much you take to 1 tbsp from week 7 - this is known as the Maintenance Phase.<\/p><p>\nBecause everyone is different, you may choose to continue taking the Rebalancing Phase amount of JUVIA after week 6.<\/p>"
+          }
+        },
+        "4ae88cd8-f932-4e09-8904-a6ead584edd4": {
+          "type": "product",
+          "settings": {
+            "question": "When might I start to see a difference from taking JUVIA?",
+            "answer": "<p>   The Rebalancing Phase of taking JUVIA typically <\/p><p>lasts 6 weeks, but some people notice a difference in how they feel in as little as 2 days. It’s important to note that everyone is different, and the time it takes can vary.<\/p>"
+          }
+        },
+        "5e04d327-2104-472a-9a38-d4ebf0cc89e2": {
+          "type": "product",
+          "settings": {
+            "question": "I’ve been taking JUVIA for a week and I feel worse, what do I do?",
+            "answer": "<p>  There’s often a period of detox after you start to take JUVIA, so it’s completely normal to feel a little worse at first. Carry on with your routine and you’ll start to see improvements in a short amount of time.<\/p>"
+          }
+        },
+        "8d7f0859-0caa-424a-8ae1-9292629cd12b": {
+          "type": "product",
+          "settings": {
+            "question": "Is JUVIA suitable for children?",
+            "answer": "<p> JUVIA is not suitable for children under 5 years old. Children aged 5-12 should take half the recommended adult serving - 11ml twice a day in the Rebalancing Phase, and 7.5ml once per day during the Maintenance Phase.<\/p>"
+          }
+        },
+        "6b430d40-844d-4ed6-a4c6-0a5e37d88311": {
+          "type": "product",
+          "settings": {
+            "question": "Is JUVIA gluten-free?",
+            "answer": "<p>JUVIA is derived from barley grain which contains gluten. Therefore it is not suitable for people with coeliac disease or a gluten allergy. For people with gluten intolerance JUVIA might be tolerated and can even help, but each person is different so we would recommend consulting your doctor before usage.<\/p>"
+          }
+        },
+        "d0d9368b-3cb1-4d9b-9c06-4225d5678e42": {
+          "type": "product",
+          "settings": {
+            "question": "Are there side effects when taking JUVIA?",
+            "answer": "<p>Most people who try JUVIA feel positive effects within a matter of days or weeks. But everyone is different, so please be patient with your body.<\/p>\n<p>\nSome people experience a detox effect during the first two or three days days of taking JUVIA. This may last for a few days and could include headaches, fogginess and sometimes a little bowel discomfort. This is completely normal so it’s nothing to worry about.<\/p><p>\nIt is recommended not to start taking the product just before the start of menstruation, so you can start it afterwards and your gut bacteria should have stabilised after a month, in time for your next cycle.<\/p>"
+          }
+        },
+        "c8d2359a-ca85-455b-8267-7e8b592c0839": {
+          "type": "product",
+          "settings": {
+            "question": "Is JUVIA a medicine?",
+            "answer": "<p>No, JUVIA is a food supplement.<\/p>"
+          }
+        },
+        "d77fb06d-0234-4b08-ae80-f7ffc5c93ddd": {
+          "type": "product",
+          "settings": {
+            "question": "Can I take JUVIA alongside any other medications?",
+            "answer": "<p>JUVIA is a food supplement and is safe to take alongside most medications, but we recommend you check with your doctor before consuming anything new or adding anything to your diet. If you are on medication, make sure to check with your doctor before starting your JUVIA routine.<\/p>"
+          }
+        },
+        "567452d1-3601-4cda-ae27-77fb0adfedf9": {
+          "type": "product",
+          "settings": {
+            "question": "How sustainable is JUVIA?",
+            "answer": "<p>JUVIA is derived from 100% sustainable barley, grown in the UK and made using renewable energy. JUVIA packaging is also recyclable. We’re committed to sustainability through our supply chain and are constantly looking for ways to reduce our impact on the environment.<\/p>"
+          }
+        },
+        "93de041b-7269-4197-b3e0-c655d4208e0f": {
+          "type": "product",
+          "settings": {
+            "question": "Why is the microbiome important?",
+            "answer": "<p>The gut microbiome is really important for your overall health - it’s vital in controlling digestion and helping your immune system. Your microbiome is made up of many trillions of bacteria and microbes. An unhealthy microbiome can lead to a number of health issues, including high cholesterol, raised blood sugar and weight gain. Having a healthy microbiome can help with brain health, digestive health and more. <\/p>"
+          }
+        },
+        "94208f40-cd35-4c11-b078-1d12e861ab0b": {
+          "type": "the-app",
+          "settings": {
+            "the_app_question": "How do I download the JUVIA app?",
+            "the_app_answer": "<p>The JUVIA app is available across Android and iOS devices. To download it, search ‘JUVIA’  in the Google Play Store or Apple App Store.<\/p>"
+          }
+        },
+        "2430a803-968d-4645-b8f2-92a7c216cd22": {
+          "type": "the-app",
+          "settings": {
+            "the_app_question": "Is the JUVIA app free to download?",
+            "the_app_answer": "<p>Yes, the JUVIA app is completely free to download and use.<\/p>"
+          }
+        },
+        "0e15c39b-b2cb-4a91-bef9-156e07a44389": {
+          "type": "the-app",
+          "settings": {
+            "the_app_question": "What does the JUVIA app do?",
+            "the_app_answer": "<p>Our app has been created to support you in three main ways:<\/p>\n<p>1. Easy subscription handling. View and change your JUVIA subscription quickly and easily. You can use the app to pause, cancel, resume, skip and edit your details.<\/p>\n<p>2. Track your progress. With the inbuilt tracker calendar, the app will help you look back over the time you’ve been taking JUVIA to see if you're feeling any different\/better.<\/p>\n<p>3. Reminders to take JUVIA. You choose when you want to take the supplement, and then set the notification times to suit your daily routine.<\/p>\n<p>The app also lets you make a one-off purchase of JUVIA if you prefer to not subscribe. You’ll also be able to read all of our blog content whenever you want, so you can read more about health and wellbeing.<\/p>"
+          }
+        },
+        "d5337fa2-02b6-4b2e-b4bb-2db9246e4cd5": {
+          "type": "the-app",
+          "settings": {
+            "the_app_question": "Do I have to use the JUVIA app?",
+            "the_app_answer": "<p>No, using our app is completely up to you. It’s designed to help with taking JUVIA and tracking your progress but if you prefer not to use the app that’s fine.<\/p>"
+          }
+        },
+        "51247f70-17e6-437d-80da-f232f574c4a1": {
+          "type": "the-app",
+          "settings": {
+            "the_app_question": "What happens to my data?",
+            "the_app_answer": "<p>JUVIA app customer data is stored on Shopify, which is our website platform. Customers can delete their account on the app and it will then prompt their account and relevant data to be deleted on Shopify. More on Shopify's GDPR policy can be read here:<\/p>\n<a href=\"#\">https:\/\/www.shopify.com\/legal\/dpa<\/a><br><br>\n<p>Read our full <a href=\"#\">JUVIA Privacy Policy <\/a>for more details.<\/p>"
+          }
+        },
+        "8fa8ad43-a7df-415a-8d34-ec0b3aec44d8": {
+          "type": "delivery",
+          "settings": {
+            "delivery_question": "Where can I buy JUVIA?",
+            "delivery_answer": "<p> JUVIA is currently only available here at <a href=\"\/pages\/home\">www.juvia.me<\/a> Learn more about the product.<\/p>"
+          }
+        },
+        "7516290e-1421-4708-a69c-5e24291b0296": {
+          "type": "delivery",
+          "settings": {
+            "delivery_question": "How much does JUVIA delivery cost?",
+            "delivery_answer": "<p>Delivery is free across the UK.<\/p>"
+          }
+        },
+        "cbe0f501-5135-40fc-a820-f1f1fcd89df8": {
+          "type": "delivery",
+          "settings": {
+            "delivery_question": "How can I pay for JUVIA?",
+            "delivery_answer": "<p>The payment methods we currently accept include credit cards, PayPal and Apple Pay.<\/p>"
+          }
+        },
+        "a124e954-94f4-46b2-ac02-8aaf06ea4ef8": {
+          "type": "delivery",
+          "settings": {
+            "delivery_question": "Where do you deliver to?",
+            "delivery_answer": "<p>At the moment we deliver across the UK.<\/p>"
+          }
+        },
+        "587d5476-726d-438f-a63e-a5b33f989af7": {
+          "type": "delivery",
+          "settings": {
+            "delivery_question": "What is your returns policy?",
+            "delivery_answer": "<p>We offer a 21-day money-back guarantee on your first pack of JUVIA if you decide the product isn’t for you. Otherwise, we have a 14-day return policy on unopened boxes of JUVIA.<\/p>\n<p>Generally, we can only accept returns of unopened boxes of JUVIA - once the tamper seal on the shipper box has been broken we can’t accept the return for safety reasons.<\/p>\n<p>To be eligible for the money-back guarantee, you must contact us within 21 days of receiving your order. If you’d like to discuss returning your order, please send an email with your name and order number to <a href=\"#\">returns@juvia.me<\/a>.<\/p>"
+          }
+        },
+        "f7beb184-3942-4e61-88a2-4445c87c003b": {
+          "type": "delivery",
+          "settings": {
+            "delivery_question": "How does the money-back guarantee work?",
+            "delivery_answer": "<p>We offer a full money-back guarantee if you decide JUVIA is not for you. To be eligible, you must contact us within 21 days of your first purchase of JUVIA.<\/p>\n<p>The guarantee is only eligible on the first pack. If you order 2 packs (4 bottles) and open both boxes, the guarantee only applies to the cost of the first pack. The other pack would need to be returned in the normal way and we only accept back sealed packs.<\/p>\n\n<p>To get in touch about the money-back guarantee, please contact us at <a href=\"\">returns@juvia.me<\/a>  providing your order number, name and the reason JUVIA isn’t right for you. Our team will explain how to return the product to us for free and we’ll issue your refund in full via the payment method you used for the original purchase.<\/p>\n\n<p>Money-back guarantee terms and conditions: You must contact us within the first 21 days of placing your order. It must be your first purchase. The guarantee is redeemable only once per household.<\/p>\n\n<p>If you purchased multiple boxes (each box contains 2 x 450ml bottles), this guarantee only applies to one box. Any unopened boxes can be returned using our normal returns procedure.<\/p>\n<p>If you are a subscriber and your second box has already been delivered, this can be returned (provided it is un-opened) using our general returns policy.<\/p>\n<p>This guarantee does not affect your statutory rights.<\/p>"
+          }
+        },
+        "ec161d30-160c-4fe5-85b0-6c52d17dad27": {
+          "type": "delivery",
+          "settings": {
+            "delivery_question": "I’ve placed an order and have changed my mind, can I cancel?",
+            "delivery_answer": "<p>Contact us at <a href=\"\/pages\/contact\">help@juvia.com<\/a> as soon as possible with the change you’d like to make. While we can’t guarantee we’ll be able to make any changes, if you contact us within an hour of placing your order we may have time to change it before it goes out for delivery.<\/p>"
+          }
+        },
+        "6017c0f3-b7b5-4605-bcd8-b585f6a037a4": {
+          "type": "delivery",
+          "settings": {
+            "delivery_question": "Do you have quality control in place?",
+            "delivery_answer": "<p>Contact us at <a href=\"\/pages\/contact\">help@juvia.com <\/a>as soon as possible with the change you’d like to make. While we can’t guarantee we’ll be able to make any changes, if you contact us within an hour of placing your order we may have time to change it before it goes out for delivery.<\/p>"
+          }
+        },
+        "bd1ba4eb-5dd5-403c-91ad-ed029303abfc": {
+          "type": "delivery",
+          "settings": {
+            "delivery_question": "Do you have quality control in place?",
+            "delivery_answer": "<p>All JUVIA products are made and packed to BRC standards.<\/p>"
+          }
+        },
+        "0e02a990-a557-477a-85e0-429cb9b07415": {
+          "type": "delivery",
+          "settings": {
+            "delivery_question": "Is your packaging recyclable?",
+            "delivery_answer": "<p>Yes, JUVIA packaging is recyclable and we’re committed to sustainability across our production and beyond. Our bottles are made from PET and contain recycled material. Our labels and postal box are also recyclable and printed with water-based inks. Our active ingredient ERME™ is derived from sustainable barley grown in the UK.<\/p>\n<p>You can learn more about our sustainability commitments on our <a href=\"\/pages\/about\">About Us<\/a> page.<\/p>"
+          }
+        },
+        "60a48b82-cedd-44fb-87a0-f2051dba2853": {
+          "type": "delivery",
+          "settings": {
+            "delivery_question": "My JUVIA has arrived with a frothy layer on it where it has settled in transit. Is this right?",
+            "delivery_answer": "<p>Sometimes when the product has been moved around in transit it can settle with a frothy layer on top. This is nothing to worry about and is completely normal - just give the bottle a bit of a shake (just make sure it’s closed first!).<\/p>"
+          }
+        },
+        "dd5d0904-063c-402f-ae9b-8f16725cc47d": {
+          "type": "subscription",
+          "settings": {
+            "subscription_question": "Why do I need a JUVIA subscription?",
+            "subscription_answer": "<p>A subscription means you don’t need to worry about running out of JUVIA or having to set manual reminders to order more. It’s also a cheaper option - you save 20%! Our subscription packages can be managed via your account page, our app or by getting in touch with us, to make your life easier.<\/p>"
+          }
+        },
+        "4a354a11-8ff2-416d-b451-8cbc2d0ca55e": {
+          "type": "subscription",
+          "settings": {
+            "subscription_question": "Can I cancel my subscription?",
+            "subscription_answer": "<p>You can cancel your JUVIA subscription at any time via the website or directly in your app. \nWith the app, <\/p><p>you will receive notifications when the next payment is going to be taken and your subscription is due to renew. From here, you can easily pause, skip, cancel, or resume your subscription as it suits your lifestyle. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "ee7b74ae-b679-4fbd-af4e-3144a0f55d77",
+        "48248575-fd8a-4d1a-8ee9-5120e1fce3d2",
+        "3402e61f-9c0f-4b91-bd95-52639d159a1a",
+        "236ed43b-35e7-48e1-91fd-70533897e0d8",
+        "67c2663d-fdd6-435c-9a95-462064957b6e",
+        "a47aecdd-bd3f-4bfd-9cea-e9588df1c445",
+        "12e0e6ad-a1a8-4978-8595-bcaae6a7f626",
+        "1424d058-31bd-4329-80f8-a66f5e766bc1",
+        "4ae88cd8-f932-4e09-8904-a6ead584edd4",
+        "5e04d327-2104-472a-9a38-d4ebf0cc89e2",
+        "8d7f0859-0caa-424a-8ae1-9292629cd12b",
+        "6b430d40-844d-4ed6-a4c6-0a5e37d88311",
+        "d0d9368b-3cb1-4d9b-9c06-4225d5678e42",
+        "c8d2359a-ca85-455b-8267-7e8b592c0839",
+        "d77fb06d-0234-4b08-ae80-f7ffc5c93ddd",
+        "567452d1-3601-4cda-ae27-77fb0adfedf9",
+        "93de041b-7269-4197-b3e0-c655d4208e0f",
+        "94208f40-cd35-4c11-b078-1d12e861ab0b",
+        "2430a803-968d-4645-b8f2-92a7c216cd22",
+        "0e15c39b-b2cb-4a91-bef9-156e07a44389",
+        "d5337fa2-02b6-4b2e-b4bb-2db9246e4cd5",
+        "51247f70-17e6-437d-80da-f232f574c4a1",
+        "8fa8ad43-a7df-415a-8d34-ec0b3aec44d8",
+        "7516290e-1421-4708-a69c-5e24291b0296",
+        "cbe0f501-5135-40fc-a820-f1f1fcd89df8",
+        "a124e954-94f4-46b2-ac02-8aaf06ea4ef8",
+        "587d5476-726d-438f-a63e-a5b33f989af7",
+        "f7beb184-3942-4e61-88a2-4445c87c003b",
+        "ec161d30-160c-4fe5-85b0-6c52d17dad27",
+        "6017c0f3-b7b5-4605-bcd8-b585f6a037a4",
+        "bd1ba4eb-5dd5-403c-91ad-ed029303abfc",
+        "0e02a990-a557-477a-85e0-429cb9b07415",
+        "60a48b82-cedd-44fb-87a0-f2051dba2853",
+        "dd5d0904-063c-402f-ae9b-8f16725cc47d",
+        "4a354a11-8ff2-416d-b451-8cbc2d0ca55e"
+      ],
+      "settings": {
+        "title": "JUVIA™ - FAQs",
+        "content": "Everything you need to know about JUVIA and our products. Learn more about our digestive balance formula and how it can help you start your journey towards a more balanced lifestyle.",
+        "product": "Product",
+        "the_app": "The App",
+        "delivery": "Delivery and Returns",
+        "subscription": "Subscriptions"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "165943360395fe2c4e",
+    "16595092349925d440"
+  ]
+}

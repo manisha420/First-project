@@ -1,0 +1,89 @@
+<section class="new-suppliment-main">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 new-suppliment-heading text-center">
+      	<h2>{{section.settings.heading}}</h2>
+      </div>
+      <div class="col-md-6 text-center">
+        <div class="new-suppliment-image-part">
+        	<img src="{{section.settings.image |img_url:'master'}}" alt=""/>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="new-suppliment-content">
+            {% for block in section.blocks %}  
+          <div class="new-suppli-listing">
+            <div class="suppli-listing-img">
+                <img src="{{block.settings.icon_image | img_url:'master'}}" alt=""/>
+             
+            </div>
+            <div class="suppli-listing-cont">
+              <p>{{block.settings.heading_one}}</p>
+            </div>
+          </div>
+           {% endfor %}
+        </div>
+      </div>
+      <div class="grey-tri">
+       <img src="{{section.settings.arrow_image |img_url:'master'}}" alt=""/>
+      </div>
+    </div>
+  </div>
+</section>
+{% schema %}
+  {
+    "name": "Landing Supplements",
+    "settings": [
+{ 
+      "type": "text",
+      "id": "heading",
+      "label": "heading",
+      "default": "Heading"
+},
+ { 
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image" 
+  },
+{ 
+      "type": "image_picker",
+      "id": "arrow_image",
+      "label": "Image" 
+  }
+
+],
+ "blocks": [
+    {
+      "type": "image",
+      "name": "image",
+      "settings": [
+    { 
+      "type": "image_picker",
+      "id": "icon_image",
+      "label": "Intro Image" 
+  }, 
+{ 
+      "type": "text",
+      "id": "heading_one",
+      "label": "heading",
+      "default": "heading"
+}
+
+]
+}
+],
+"presets": [
+    {
+      "category": "Landing Supplements ",
+      "name": "Landing Supplements",
+      "settings": {}
+    }
+  ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

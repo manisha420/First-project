@@ -1,0 +1,128 @@
+<!-- <section class="top-bar">
+  <div class="container">
+  	<div class="row">
+      <div class="col-md-12 text-center" >
+        <div class="topbar-content">
+          <p><b>Sign Up and Win!</b> Be the first to try it this august <b>plus</b> be entered into our prize draw!</p>	
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<section class="banner-part landing_page_banner" style="background:url({{section.settings.banner_image_mobile |img_url :'master'}});">
+  <div class="banner-img-main">
+    <img src="{{section.settings.banner_image |img_url :'master'}}" alt="">
+  </div>
+  <div class="banner-cont-logo_main">
+  <div class="container">
+	<div class="row">
+      <div class="col-md-12">
+      	
+        <div class="banner-cont-logo">
+          <img src="{{section.settings.image |img_url :'master'}}" alt/>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="banner-content-main">
+  <div class="container">
+	<div class="row">
+      <div class="col-md-12">
+        <div class="banner-cont">
+          <h3>{{section.settings.heading}}</h3>
+          <h4>{{section.settings.subheading}}</h4>
+          <p>{{section.settings.content}}</p>	
+        </div>
+        
+        <div class="banner-form-main">
+          <div class="banner-form-part" id="sign_up_form">
+<!--             <h2>{{section.settings.form_heading}}</h2>
+            <p>{{section.settings.form_content}}</p> -->
+            <div class="klaviyo-form-U4926W"></div>
+<!--             <h5>Try it first AND be entered into a draw to win 1 of 3 £150 Red Letter Day vouchers!</h5>
+            
+            <p>Celebrate your new found freedom on a hot air balloon ride, a trip away, in a relaxing spa…the choice is yours.</p>
+          	 -->
+<!--             <form action="#">
+              <input type="text" name="" placeholder="Name">
+              <input type="email" name="" placeholder="Email address">
+              <select name="">
+                <option>Location</option>
+              </select>
+              <div class="submit-btn">
+              <input type="submit" name="" value="Sign Up">  
+              </div>
+            </form> -->
+          </div>
+        </div>
+      
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+
+<!-- Working above -->
+{% schema %}
+  {
+    "name": "Home Banner",
+    "settings": [
+{ 
+      "type": "image_picker",
+      "id": "banner_image",
+      "label": "Banner Image" 
+},
+
+{ 
+      "type": "image_picker",
+      "id": "banner_image_mobile",
+      "label": "Mobile Banner Image" 
+},
+{ 
+      "type": "image_picker",
+      "id": "image",
+      "label": "Logo Image" 
+},
+{ 
+      "type": "text",
+      "id": "heading",
+      "label": "heading",
+      "default": "Sub-heading"
+},
+{ 
+      "type": "text",
+      "id": "subheading",
+      "label": "Sub-heading",
+      "default": "Sub-heading"
+},
+{ 
+      "type": "text",
+      "id": "content",
+      "label": "content",
+      "default": "Content"
+},
+{ 
+      "type": "text",
+      "id": "form_heading",
+      "label": "Form-Heading"
+},
+{ 
+      "type": "text",
+      "id": "form_content",
+      "label": "form-content"
+}
+],
+ "presets": [
+    {
+      "category": "Home Banner",
+      "name": "Home Banner",
+      "settings": {}
+    }
+  ]
+  }
+{% endschema %}
+
+

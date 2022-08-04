@@ -1,0 +1,63 @@
+<section class="footer-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="footer-logo">
+          <img src="{{section.settings.icon_image |img_url:'master'}}" alt=""/>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="footer-right-part">
+          <div class="join-community">
+            <p>Join our community @juvia_me</p>
+          </div>
+             
+          <div class="social-footer">
+            <div class="social-part">
+            {% render 'social-media', class: 'Footer__Social', spacing: 'loose' %}
+             </div>
+           </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-right">
+        <div class="web-powered">
+          <p>Website by <a href="https://www.wiro.agency/" target="_blank">Wiro Agency</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Landing footer",
+    "settings": [
+ { 
+      "type": "image_picker",
+      "id": "icon_image",
+      "label": "Intro Image" 
+  },
+{ 
+      "type": "text",
+      "id": "heading",
+      "label": "heading",
+      "default": "Heading"
+}
+],
+"presets": [
+    {
+      "category": "Landing footer ",
+      "name": "Landing footer",
+      "settings": {}
+    }
+  ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

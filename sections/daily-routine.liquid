@@ -1,0 +1,180 @@
+
+<section class="about_product_main daily_routine">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="about_product_content">
+          <div class="about_product_head">
+            <h2>{{ section.settings.product_head }}</h2>
+           {{ section.settings.ab_content }}
+          </div>
+        </div>
+        <div class="about_product_content">
+          <div class="about_product_head">
+            <h2>{{ section.settings.product_head2 }}</h2>
+           {{ section.settings.ab_content2 }}
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="daily_routine_img about_product_content">
+         <img src="{{section.settings.image | img_url:'master'}}" alt=""/>
+        </div>
+      </div>
+    </div>
+
+    <div class="product_sustainble_main">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="product_sustainble">
+          <h3 class="cust_about_product_subh cst_heading_color">{{ section.settings.ab_head_2 }}</h3>
+        {{ section.settings.ab_content_2 }}
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="product_sustainble">
+          <h3 class="cust_about_product_subh cst_heading_color">{{ section.settings.ab_head_3 }}</h3>
+         {{ section.settings.ab_content_3 }}
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="product_sbu_content">
+     <div class="row">
+      <div class="col-md-12">
+        <div class="about_product_content">
+          <div class="about_product_head ">
+            <h3 class="cst_heading_color">{{ section.settings.product_head3 }}</h3>
+           {{ section.settings.ab_content3 }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+    <div class="row">
+      <div class="col-md-12">
+       <div class="about_product_content">
+
+         <div class="about_product_refrence">
+           <h4>{{ section.settings.ab_head_5}}</h4>
+           <ol class="refrence_list">
+             {% for block in section.blocks %}
+            {% case block.type %}
+              {% when 'references_list' %}
+              {% if block.settings.li_link == blank %}
+             <li>{{ block.settings.li_text }}</li>
+             {% else %}
+                <li><a target="_blank" href="{{ block.settings.li_link}}">{{ block.settings.li_text }}</a></li>
+             {% endif %}
+               {% endcase %}
+              {% endfor %}
+           </ol>
+         </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Daily Routine",
+    "settings": [
+      { 
+        "type": "text",
+        "id": "product_head",
+        "label": " Product Heading"
+      },
+     { 
+        "type": "html",
+        "id": "ab_content",
+        "label": " Product Heading "
+      },
+       { 
+        "type": "text",
+        "id": "product_head2",
+        "label": " Product Heading 2"
+      },
+     { 
+        "type": "html",
+        "id": "ab_content2",
+        "label": " AB_content2"
+      },
+        { 
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image" 
+  }, 
+       { 
+        "type": "text",
+        "id": "ab_head_2",
+        "label": " Heading"
+      },
+     { 
+        "type": "html",
+        "id": "ab_content_2",
+        "label": " Product Heading"
+      },
+      { 
+        "type": "text",
+        "id": "ab_head_3",
+        "label": " Heading"
+      },
+        { 
+        "type": "html",
+        "id": "ab_content_3",
+        "label": " Product Heading"
+      },
+    
+      { 
+        "type": "text",
+        "id": "product_head3",
+        "label": " Product Heading 3"
+      },
+     { 
+        "type": "html",
+        "id": "ab_content3",
+        "label": " AB content3 3"
+      },
+      
+      { 
+        "type": "text",
+        "id": "ab_head_5",
+        "label": " Heading"
+      }
+      
+  ],
+    	"blocks": [
+     {
+       "name": "references_list",
+       "type": "references_list",
+       "settings": [
+        { 
+        "type": "url",
+        "id": "li_link",
+        "label": " Link"
+      },
+      { 
+        "type": "html",
+        "id": "li_text",
+        "label": " References List"
+      }
+       ]
+     }
+  ],
+     "presets": [
+    {
+      "category": "Daily Routine",
+      "name": "Daily Routine",
+      "settings": {}
+    }
+  ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

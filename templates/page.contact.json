@@ -1,0 +1,84 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-contact",
+      "blocks": {
+        "9bc8b005-e47c-4c7a-9695-cdb030e9a6f9": {
+          "type": "text",
+          "settings": {
+            "title": "Phone Number",
+            "use_long_text": false,
+            "is_required": false
+          }
+        }
+      },
+      "block_order": [
+        "9bc8b005-e47c-4c7a-9695-cdb030e9a6f9"
+      ],
+      "settings": {
+        "title": "Get in Touch",
+        "content": "<p>Get in touch with our friendly team for any information about JUVIA, our products and services. We’re on hand to help with any questions about taking the supplement, ways to balance your lifestyle, shipping queries and any other questions you may have.<\/p>\n<p>You can log in to your account to view recent orders, but if you still have questions or need anything else from us, our team is on hand to help Monday-Friday, 9:00am to 5:00pm (GMT) via email or Live Chat (bottom right of your screen!). We aim to respond to emails within 24 hours.<\/p>",
+        "address": "",
+        "email": "info@juvia.me",
+        "job_oping": "View all job openings",
+        "job_oping_link": "#",
+        "faq": "Go to the FAQs",
+        "faq_link": "#"
+      }
+    },
+    "165664991044b74899": {
+      "type": "about",
+      "disabled": true,
+      "settings": {
+        "heading": "About",
+        "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis efficitur ex viverra sollicitudin. Maecenas blandit est at mi varius congue. Donec sed sodales mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis efficitur ex viverra sollicitudin. Maecenas blandit est at mi varius congue. Donec sed sodales mauris. Consectetur adipiscing elit. Donec iaculis efficitur ex viverra sollicitudin.<\/p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis efficitur ex viverra sollicitudin. Maecenas blandit est at mi varius congue. Donec sed sodales mauris. Consectetur adipiscing elit. Donec iaculis efficitur ex viverra sollicitudin.<\/p>",
+        "image": "shopify:\/\/shop_images\/ABOUT-IMAGE.jpg",
+        "heading_one": "heading"
+      }
+    },
+    "16566547713fef4df9": {
+      "type": "image-text",
+      "disabled": true,
+      "settings": {
+        "heading": "Ingredient integrity",
+        "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis efficitur ex viverra sollicitudin. Maecenas blandit est at mi varius congue. Donec sed sodales mauris.<\/p>",
+        "image": "shopify:\/\/shop_images\/intergrity_img.jpg"
+      }
+    },
+    "165665477934bfdaf2": {
+      "type": "image-text",
+      "disabled": true,
+      "settings": {
+        "heading": "Lorem ipsum dolor",
+        "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis efficitur ex viverra sollicitudin. Maecenas blandit est at mi varius congue. Donec sed sodales mauris.<\/p>",
+        "image": "shopify:\/\/shop_images\/image_0ba43566-7409-40c8-8b54-fb3ab9e36504.png"
+      }
+    },
+    "165762672228988899": {
+      "type": "apps",
+      "blocks": {
+        "f7c44512-8aa9-49d9-b41e-f39783947788": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "f7c44512-8aa9-49d9-b41e-f39783947788"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "165664991044b74899",
+    "16566547713fef4df9",
+    "165665477934bfdaf2",
+    "165762672228988899"
+  ]
+}

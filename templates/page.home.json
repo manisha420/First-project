@@ -1,0 +1,210 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_large": false
+      }
+    },
+    "1656479403c79f2de5": {
+      "type": "home-banner",
+      "settings": {
+        "hero_banner_image": "shopify:\/\/shop_images\/juvia-laughing-lady_fd00b3a4-5b76-4f91-8556-f0d5275001d8.jpg",
+        "banner_image_mobile": "shopify:\/\/shop_images\/juvia-laughing-lady_fd00b3a4-5b76-4f91-8556-f0d5275001d8.jpg",
+        "main_heading": "Freedom from within",
+        "content": "Digestive balance formula, activated by ERME®",
+        "learn_more_btn": "Learn more",
+        "learn_more_btn_url": "#introducing-juvia",
+        "why_it_btn": "",
+        "why_it_btn_url": "#"
+      }
+    },
+    "1656492204943d4e6e": {
+      "type": "introducing",
+      "blocks": {
+        "da83f4b4-7b52-4ce0-ae6a-4ce01f7535e1": {
+          "type": "image",
+          "settings": {
+            "intro_image": "shopify:\/\/shop_images\/Rectangle_106.png",
+            "heading_one": "Backed by science",
+            "Subheading_one": "JUVIA is powered by cutting-edge science from world-leading experts in gut health.",
+            "intro_image_two": "shopify:\/\/shop_images\/man-relaxing.jpg",
+            "heading_two": "Freedom from within",
+            "subheading_two": "No more restrictive diets - you’re free to live your life."
+          }
+        },
+        "c8e4eaaa-a4a3-4d49-bcbe-d669688b3046": {
+          "type": "image",
+          "settings": {
+            "intro_image": "shopify:\/\/shop_images\/juvia-app.jpg",
+            "heading_one": "Daily ritual",
+            "Subheading_one": "Add JUVIA to your daily routine and use our innovative app to help you track progress.",
+            "intro_image_two": "shopify:\/\/shop_images\/Rectangle_106_e0c430af-2500-480b-9870-e82d4864d08b.png",
+            "heading_two": "Easy to take",
+            "subheading_two": "JUVIA can be eaten straight from the spoon or added to cold food or drink."
+          }
+        }
+      },
+      "block_order": [
+        "da83f4b4-7b52-4ce0-ae6a-4ce01f7535e1",
+        "c8e4eaaa-a4a3-4d49-bcbe-d669688b3046"
+      ],
+      "settings": {
+        "heading": "Introducing JUVIA",
+        "subheading": "A groundbreaking food supplement to help you live your life the way you want to.",
+        "content": "Our research shows that many people with digestive issues like IBS are still searching for a solution that really works for them.",
+        "content_two": "This is because our gut flora is as unique and distinctive as we are.",
+        "content_three": "JUVIA is a supplement that works with your gut flora, instead of introducing new bacteria.",
+        "content_four": "JUVIA contains our unique natural plant-based ingredient ERME™, which is made from barley. Its active enzymes help break down carbohydrates before they can cause problems."
+      }
+    },
+    "1656492521dec77328": {
+      "type": "testimonial-landing",
+      "settings": {
+        "content": "“Since taking JUVIA I have found I can eat foods that used to upset my bowels. I now have control over what I do and feel much more confident.”",
+        "copyright": "- Sophie, London",
+        "back_image": "shopify:\/\/shop_images\/blue-1.png"
+      }
+    },
+    "165649272374cb07f3": {
+      "type": "landing-supplement-home",
+      "blocks": {
+        "dfb42521-b000-4de6-a8b0-5ac3d2b27068": {
+          "type": "image",
+          "settings": {
+            "icon_image": "shopify:\/\/shop_images\/bullet-dot.png",
+            "heading_one": "Your easy daily routine"
+          }
+        },
+        "8f51d924-6535-4b1d-b592-1c26aceaae35": {
+          "type": "image",
+          "settings": {
+            "icon_image": "shopify:\/\/shop_images\/bullet-dot.png",
+            "heading_one": "You’ll start your journey with the <b>Rebalancing Phase<\/b> for the first 6 weeks (4 bottles)"
+          }
+        },
+        "fd6d0cec-2efe-4dab-ab3f-a7461d17da11": {
+          "type": "image",
+          "settings": {
+            "icon_image": "shopify:\/\/shop_images\/bullet-dot.png",
+            "heading_one": "Here you’ll take 1.5 tablespoons twice a day with your meal"
+          }
+        },
+        "6a420ac7-e790-4ba6-973b-2f3866d3daf6": {
+          "type": "image",
+          "settings": {
+            "icon_image": "shopify:\/\/shop_images\/bullet-dot.png",
+            "heading_one": "Then try reducing to 1 tablespoon a day (2 bottles every 8 weeks), which is the <b>Maintenance Phase<\/b>"
+          }
+        },
+        "12c72af7-745d-4ea1-b463-776df2284bd4": {
+          "type": "image",
+          "settings": {
+            "icon_image": "shopify:\/\/shop_images\/bullet-dot.png",
+            "heading_one": "Take it straight from the spoon or with\/on cold food or drink"
+          }
+        },
+        "ad40ece8-1584-493b-8443-d4e1b0883603": {
+          "type": "image",
+          "settings": {
+            "icon_image": "shopify:\/\/shop_images\/bullet-dot.png",
+            "heading_one": "And very soon, no more restrictive diets and you’ll be free to live your life"
+          }
+        }
+      },
+      "block_order": [
+        "dfb42521-b000-4de6-a8b0-5ac3d2b27068",
+        "8f51d924-6535-4b1d-b592-1c26aceaae35",
+        "fd6d0cec-2efe-4dab-ab3f-a7461d17da11",
+        "6a420ac7-e790-4ba6-973b-2f3866d3daf6",
+        "12c72af7-745d-4ea1-b463-776df2284bd4",
+        "ad40ece8-1584-493b-8443-d4e1b0883603"
+      ],
+      "settings": {
+        "heading": "A groundbreaking food supplement, powered by plants",
+        "arrow_image": "shopify:\/\/shop_images\/grey-tri.png",
+        "select_product": "digestive-balance-formula"
+      }
+    },
+    "16564929705dee0a6d": {
+      "type": "daily-ritual",
+      "settings": {
+        "heading": "YOUR NEW DAILY ROUTINE",
+        "subheading": "Made even easier by our app",
+        "content": "Adding JUVIA to your daily routine is simple - and made even easier by our app, which will help you track progress, set reminders and more.",
+        "content_two": "JUVIA can be eaten straight from a spoon, drizzled over yoghurt, blended into cold drinks or spooned on top of a cold dessert like fruit (or brownies for a treat!).",
+        "content_three": "After a rebalancing phase of six weeks, when you’ll take JUVIA twice a day, you’ll be able to start gradually reducing your intake as you start to see results and feel like yourself again.",
+        "image": "shopify:\/\/shop_images\/image.jpg",
+        "arrow_image": "shopify:\/\/shop_images\/daily-bottom.png"
+      }
+    },
+    "1657872947c61d5bc1": {
+      "type": "launching-home",
+      "blocks": {
+        "0d9905f0-43ad-4daa-8211-52b731285039": {
+          "type": "image",
+          "settings": {
+            "launch_image": "shopify:\/\/shop_images\/popular-short-breaks.png",
+            "launch_image_two": "shopify:\/\/shop_images\/popular-pampering.png"
+          }
+        },
+        "1f4fc743-824d-46ab-a4b9-bfcc590684ec": {
+          "type": "image",
+          "settings": {
+            "launch_image": "shopify:\/\/shop_images\/popular-short-breaks_19b5b362-d519-467d-95c3-c5d86ddb580e.png",
+            "launch_image_two": "shopify:\/\/shop_images\/popular-short-breaks.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "0d9905f0-43ad-4daa-8211-52b731285039",
+        "1f4fc743-824d-46ab-a4b9-bfcc590684ec"
+      ],
+      "settings": {
+        "center_image": "shopify:\/\/shop_images\/red-letter-days-logo_2_32b6d163-d4b7-419c-9050-be06b9301a52.jpg",
+        "arrow_image": "shopify:\/\/shop_images\/grey-tri.png"
+      }
+    },
+    "1656493808c59066e4": {
+      "type": "sign-up-home",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/sign-up-banner.jpg",
+        "red_image": "shopify:\/\/shop_images\/image.png",
+        "heading": "Great things come to those who subscribe",
+        "content": "Sign Up for Our Newsletter"
+      }
+    },
+    "1657626433accea394": {
+      "type": "apps",
+      "blocks": {
+        "a2a9bf4c-b067-4f7e-ba3a-c7a1fa625828": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 18,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "a2a9bf4c-b067-4f7e-ba3a-c7a1fa625828"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1656479403c79f2de5",
+    "1656492204943d4e6e",
+    "1656492521dec77328",
+    "165649272374cb07f3",
+    "16564929705dee0a6d",
+    "1657872947c61d5bc1",
+    "1656493808c59066e4",
+    "1657626433accea394"
+  ]
+}
